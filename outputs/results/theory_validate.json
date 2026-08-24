@@ -1,0 +1,107 @@
+{
+  "n_cases_for_Phi": 30,
+  "n_organs": 13,
+  "Phi_R_per_organ": {
+    "spleen": {
+      "R2": 0.0073,
+      "R4": 0.0248,
+      "R6": 0.0439,
+      "R8": 0.0568
+    },
+    "kidney_R": {
+      "R2": 0.0072,
+      "R4": 0.0294,
+      "R6": 0.0563,
+      "R8": 0.0746
+    },
+    "kidney_L": {
+      "R2": 0.0075,
+      "R4": 0.0314,
+      "R6": 0.0609,
+      "R8": 0.0808
+    },
+    "gallbladder": {
+      "R2": 0.0563,
+      "R4": 0.1398,
+      "R6": 0.2042,
+      "R8": 0.2454
+    },
+    "liver": {
+      "R2": 0.0037,
+      "R4": 0.0131,
+      "R6": 0.0233,
+      "R8": 0.03
+    },
+    "esophagus": {
+      "R2": 0.0367,
+      "R4": 0.1209,
+      "R6": 0.2166,
+      "R8": 0.2823
+    },
+    "stomach": {
+      "R2": 0.012,
+      "R4": 0.0421,
+      "R6": 0.0742,
+      "R8": 0.0954
+    },
+    "pancreas": {
+      "R2": 0.0173,
+      "R4": 0.0545,
+      "R6": 0.091,
+      "R8": 0.1142
+    },
+    "adrenal_R": {
+      "R2": 0.0617,
+      "R4": 0.2199,
+      "R6": 0.3617,
+      "R8": 0.4471
+    },
+    "adrenal_L": {
+      "R2": 0.0395,
+      "R4": 0.1533,
+      "R6": 0.274,
+      "R8": 0.351
+    },
+    "small_bowel": {
+      "R2": 0.0108,
+      "R4": 0.0401,
+      "R6": 0.0717,
+      "R8": 0.092
+    },
+    "duodenum": {
+      "R2": 0.0314,
+      "R4": 0.0984,
+      "R6": 0.163,
+      "R8": 0.2041
+    },
+    "colon": {
+      "R2": 0.0152,
+      "R4": 0.0536,
+      "R6": 0.0903,
+      "R8": 0.1129
+    }
+  },
+  "T1_concavity": {
+    "mean_pearson_linear": 0.96,
+    "mean_pearson_sqrt": 0.865,
+    "sqrt_wins_in_organs": 0,
+    "n_organs": 13,
+    "verdict": "linear better"
+  },
+  "T2_Phi_beats_centroid": {
+    "n_organs": 13,
+    "spearman_Phi8_vs_drop": 0.901,
+    "spearman_centroid_vs_drop": 0.863,
+    "collinearity_Phi8_vs_centroid": 0.896,
+    "verdict": "\u03a6_R \u2265 centroid"
+  },
+  "T3_occam_gate": {
+    "n_points": 52,
+    "note": "points are organ-clustered (not independent); partials guard against double-counting",
+    "spearman_Phi_alone": 0.893,
+    "spearman_FI": 0.654,
+    "partial_SAV_given_Phi": -0.616,
+    "partial_invContrast_given_Phi": -0.271,
+    "verdict": "Occam: report scalar \u03a6 energy-budget (FI adds little over \u03a6 alone)"
+  }
+}

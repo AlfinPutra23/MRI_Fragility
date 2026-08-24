@@ -1,0 +1,137 @@
+{
+  "rows": [
+    {
+      "organ": "adrenal_R",
+      "tail": true,
+      "n": 227,
+      "centroid": 0.18942241765806203,
+      "dice_R2train": 0.4233,
+      "dice_mixedR": 0.5694,
+      "gain": 0.146,
+      "p": 3.234410215224862e-31
+    },
+    {
+      "organ": "colon",
+      "tail": false,
+      "n": 240,
+      "centroid": 0.12379053839271092,
+      "dice_R2train": 0.7754,
+      "dice_mixedR": 0.8835,
+      "gain": 0.1081,
+      "p": 6.524039598979197e-40
+    },
+    {
+      "organ": "adrenal_L",
+      "tail": true,
+      "n": 226,
+      "centroid": 0.17076092237959553,
+      "dice_R2train": 0.4436,
+      "dice_mixedR": 0.5497,
+      "gain": 0.1062,
+      "p": 4.4364514235377505e-29
+    },
+    {
+      "organ": "gallbladder",
+      "tail": true,
+      "n": 187,
+      "centroid": 0.134057094146623,
+      "dice_R2train": 0.7146,
+      "dice_mixedR": 0.8184,
+      "gain": 0.1038,
+      "p": 1.474021263745056e-28
+    },
+    {
+      "organ": "duodenum",
+      "tail": true,
+      "n": 240,
+      "centroid": 0.13583364027364406,
+      "dice_R2train": 0.7155,
+      "dice_mixedR": 0.8002,
+      "gain": 0.0846,
+      "p": 5.259592939108353e-39
+    },
+    {
+      "organ": "small_bowel",
+      "tail": false,
+      "n": 240,
+      "centroid": 0.10189016223088979,
+      "dice_R2train": 0.823,
+      "dice_mixedR": 0.8952,
+      "gain": 0.0722,
+      "p": 6.626731496548455e-41
+    },
+    {
+      "organ": "esophagus",
+      "tail": true,
+      "n": 240,
+      "centroid": 0.16255776629771987,
+      "dice_R2train": 0.751,
+      "dice_mixedR": 0.8141,
+      "gain": 0.0631,
+      "p": 2.016779977717582e-37
+    },
+    {
+      "organ": "pancreas",
+      "tail": true,
+      "n": 240,
+      "centroid": 0.0938090781296794,
+      "dice_R2train": 0.835,
+      "dice_mixedR": 0.8712,
+      "gain": 0.0362,
+      "p": 1.2465403603953498e-33
+    },
+    {
+      "organ": "kidney_R",
+      "tail": false,
+      "n": 240,
+      "centroid": 0.0790465676580333,
+      "dice_R2train": 0.9275,
+      "dice_mixedR": 0.9618,
+      "gain": 0.0342,
+      "p": 2.1371554619069978e-35
+    },
+    {
+      "organ": "stomach",
+      "tail": false,
+      "n": 240,
+      "centroid": 0.0794041666264471,
+      "dice_R2train": 0.8869,
+      "dice_mixedR": 0.9206,
+      "gain": 0.0336,
+      "p": 2.511588781653797e-34
+    },
+    {
+      "organ": "kidney_L",
+      "tail": false,
+      "n": 217,
+      "centroid": 0.08105090564876809,
+      "dice_R2train": 0.9278,
+      "dice_mixedR": 0.9514,
+      "gain": 0.0236,
+      "p": 9.673798678633427e-32
+    },
+    {
+      "organ": "spleen",
+      "tail": false,
+      "n": 228,
+      "centroid": 0.0701003508850409,
+      "dice_R2train": 0.9278,
+      "dice_mixedR": 0.9499,
+      "gain": 0.022,
+      "p": 7.090707335739608e-35
+    },
+    {
+      "organ": "liver",
+      "tail": false,
+      "n": 240,
+      "centroid": 0.08929382900139603,
+      "dice_R2train": 0.9702,
+      "dice_mixedR": 0.9793,
+      "gain": 0.0091,
+      "p": 1.6070254058843851e-37
+    }
+  ],
+  "gain_vs_centroid_spearman": 0.824,
+  "tail_mean_gain": 0.09,
+  "robust_mean_gain": 0.0433
+}

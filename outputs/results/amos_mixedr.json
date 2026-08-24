@@ -1,0 +1,115 @@
+{
+  "tail": {
+    "n": 19,
+    "uniform_R2": 0.5493,
+    "uniform_mixedR": 0.6475,
+    "delta": 0.0982,
+    "wilcoxon_p": 7.62939453125e-06,
+    "improved_cases": 18
+  },
+  "gain_vs_centroid_spearman": 0.827,
+  "tail_mean_gain": 0.093,
+  "robust_mean_gain": 0.0224,
+  "rows": [
+    {
+      "organ": "gallbladder",
+      "tail": true,
+      "n": 19,
+      "centroid": 0.12365230331603927,
+      "dice_R2train": 0.4848,
+      "dice_mixedR": 0.6475,
+      "gain": 0.1627
+    },
+    {
+      "organ": "adrenal_R",
+      "tail": true,
+      "n": 20,
+      "centroid": 0.21500235827716496,
+      "dice_R2train": 0.3528,
+      "dice_mixedR": 0.4866,
+      "gain": 0.1338
+    },
+    {
+      "organ": "adrenal_L",
+      "tail": true,
+      "n": 20,
+      "centroid": 0.1880089735399017,
+      "dice_R2train": 0.4174,
+      "dice_mixedR": 0.5387,
+      "gain": 0.1213
+    },
+    {
+      "organ": "esophagus",
+      "tail": true,
+      "n": 20,
+      "centroid": 0.16850158279722766,
+      "dice_R2train": 0.6678,
+      "dice_mixedR": 0.726,
+      "gain": 0.0582
+    },
+    {
+      "organ": "duodenum",
+      "tail": true,
+      "n": 20,
+      "centroid": 0.134579274074132,
+      "dice_R2train": 0.5945,
+      "dice_mixedR": 0.6408,
+      "gain": 0.0463
+    },
+    {
+      "organ": "pancreas",
+      "tail": true,
+      "n": 20,
+      "centroid": 0.0950789592282547,
+      "dice_R2train": 0.787,
+      "dice_mixedR": 0.8228,
+      "gain": 0.0357
+    },
+    {
+      "organ": "stomach",
+      "tail": false,
+      "n": 20,
+      "centroid": 0.08744792589804926,
+      "dice_R2train": 0.8107,
+      "dice_mixedR": 0.8455,
+      "gain": 0.0348
+    },
+    {
+      "organ": "spleen",
+      "tail": false,
+      "n": 20,
+      "centroid": 0.06558084289956732,
+      "dice_R2train": 0.9315,
+      "dice_mixedR": 0.962,
+      "gain": 0.0304
+    },
+    {
+      "organ": "kidney_L",
+      "tail": false,
+      "n": 20,
+      "centroid": 0.07640143928904927,
+      "dice_R2train": 0.9304,
+      "dice_mixedR": 0.9526,
+      "gain": 0.0222
+    },
+    {
+      "organ": "kidney_R",
+      "tail": false,
+      "n": 20,
+      "centroid": 0.07636677861814596,
+      "dice_R2train": 0.9343,
+      "dice_mixedR": 0.9488,
+      "gain": 0.0145
+    },
+    {
+      "organ": "liver",
+      "tail": false,
+      "n": 20,
+      "centroid": 0.07971376561588875,
+      "dice_R2train": 0.9574,
+      "dice_mixedR": 0.9677,
+      "gain": 0.0103
+    }
+  ],
+  "note": "AMOS nnU-Net mixed-R mitigation @R8. THIRD mitigation datapoint (knee +0.134, MRISeg abdomen +0.088)."
+}

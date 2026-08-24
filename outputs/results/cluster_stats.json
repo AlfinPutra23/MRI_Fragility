@@ -1,0 +1,30 @@
+{
+  "knee_energy_to_dice": {
+    "pooled_spearman_n24": 0.7956521739130433,
+    "n_independent_structures": 6,
+    "cluster_bootstrap_95CI_over_structures": [
+      0.6085814360770577,
+      0.9761904761904762
+    ],
+    "per_R_spearman_n6": {
+      "R2": 0.5428571428571429,
+      "R4": 0.3714285714285715,
+      "R6": 0.7714285714285715,
+      "R8": 0.7714285714285715
+    }
+  },
+  "abdominal_law_centroid": {
+    "pearson_n13": 0.8837771705108319,
+    "bootstrap_95CI": [
+      0.7755938570386264,
+      0.9596982562021521
+    ]
+  },
+  "complex_forward_law": {
+    "pearson": 0.9129608274514457,
+    "bootstrap_95CI": [
+      0.7723426342855555,
+      0.9860925736325609
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "n": 195,
+  "organs": [
+    {
+      "id": 5,
+      "organ": "liver",
+      "tail": false,
+      "present": 195,
+      "present_pct": 100.0,
+      "mean_cm3": 1623.8248291015625,
+      "median_cm3": 1510.013427734375
+    },
+    {
+      "id": 16,
+      "organ": "small_bowel",
+      "tail": false,
+      "present": 195,
+      "present_pct": 100.0,
+      "mean_cm3": 550.6590576171875,
+      "median_cm3": 524.0196533203125
+    },
+    {
+      "id": 18,
+      "organ": "colon",
+      "tail": false,
+      "present": 195,
+      "present_pct": 100.0,
+      "mean_cm3": 506.27435302734375,
+      "median_cm3": 477.0621643066406
+    },
+    {
+      "id": 1,
+      "organ": "spleen",
+      "tail": false,
+      "present": 187,
+      "present_pct": 95.8974358974359,
+      "mean_cm3": 259.9269714355469,
+      "median_cm3": 210.62405395507812
+    },
+    {
+      "id": 7,
+      "organ": "stomach",
+      "tail": false,
+      "present": 195,
+      "present_pct": 100.0,
+      "mean_cm3": 232.07615661621094,
+      "median_cm3": 188.0933837890625
+    },
+    {
+      "id": 3,
+      "organ": "kidney_L",
+      "tail": false,
+      "present": 185,
+      "present_pct": 94.87179487179488,
+      "mean_cm3": 175.07044982910156,
+      "median_cm3": 163.52227783203125
+    },
+    {
+      "id": 2,
+      "organ": "kidney_R",
+      "tail": false,
+      "present": 188,
+      "present_pct": 96.41025641025641,
+      "mean_cm3": 168.57078552246094,
+      "median_cm3": 155.78558349609375
+    },
+    {
+      "id": 11,
+      "organ": "pancreas",
+      "tail": true,
+      "present": 195,
+      "present_pct": 100.0,
+      "mean_cm3": 71.03130340576172,
+      "median_cm3": 68.52220153808594
+    },
+    {
+      "id": 17,
+      "organ": "duodenum",
+      "tail": true,
+      "present": 195,
+      "present_pct": 100.0,
+      "mean_cm3": 36.99519348144531,
+      "median_cm3": 35.69442367553711
+    },
+    {
+      "id": 4,
+      "organ": "gallbladder",
+      "tail": true,
+      "present": 152,
+      "present_pct": 77.94871794871794,
+      "mean_cm3": 24.162471771240234,
+      "median_cm3": 20.842945098876953
+    },
+    {
+      "id": 6,
+      "organ": "esophagus",
+      "tail": true,
+      "present": 195,
+      "present_pct": 100.0,
+      "mean_cm3": 6.526672840118408,
+      "median_cm3": 6.6862969398498535
+    },
+    {
+      "id": 13,
+      "organ": "adrenal_L",
+      "tail": true,
+      "present": 183,
+      "present_pct": 93.84615384615384,
+      "mean_cm3": 4.475219249725342,
+      "median_cm3": 4.165172100067139
+    },
+    {
+      "id": 12,
+      "organ": "adrenal_R",
+      "tail": true,
+      "present": 182,
+      "present_pct": 93.33333333333333,
+      "mean_cm3": 3.622959613800049,
+      "median_cm3": 3.196359634399414
+    }
+  ],
+  "liver_cm3": 1623.8248291015625,
+  "smallest": "adrenal_R",
+  "smallest_cm3": 3.622959613800049,
+  "imbalance_ratio": 448.2039553839701,
+  "median_inplane_mm": 1.125,
+  "median_slice_mm": 3.0,
+  "map_ok": true,
+  "verdict": "PREMISE HOLDS (>=50x imbalance -> rebalancing has room)"
+}

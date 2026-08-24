@@ -1,0 +1,31 @@
+{
+  "n_structures": 6,
+  "n_points_pooled": 24,
+  "pooled_energy_to_dicedrop": {
+    "spearman": 0.952,
+    "pearson": 0.97
+  },
+  "within_R_energy_to_dicedrop": {
+    "R2": {
+      "spearman": 0.6,
+      "pearson": 0.798,
+      "n": 6
+    },
+    "R4": {
+      "spearman": 0.829,
+      "pearson": 0.949,
+      "n": 6
+    },
+    "R6": {
+      "spearman": 0.943,
+      "pearson": 0.959,
+      "n": 6
+    },
+    "R8": {
+      "spearman": 0.943,
+      "pearson": 0.955,
+      "n": 6
+    }
+  },
+  "note": "energy->image-error is r~0.978 by Parseval (trivial); this is energy->TASK(Dice). within-R at R8 isolates the non-trivial link at a FIXED acceleration."
+}

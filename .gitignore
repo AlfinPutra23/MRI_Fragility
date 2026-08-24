@@ -1,0 +1,40 @@
+# Whitelist repo: ignore everything, re-admit released material only.
+# Data, nnU-Net trees, models, and internal planning docs stay OUT.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/paper/
+!/scripts/
+!/outputs/
+/outputs/*
+!/outputs/plots/
+!/outputs/results/
+!/docs/
+/docs/*
+!/docs/EXPLAINER.md
+!/docs/PROJECT_EXPLAINED.md
+!/docs/M0_M1_RESULTS.md
+!/docs/M0_RECIPE.md
+!/docs/M1_RECIPE.md
+!/docs/LAW_V2.md
+!/docs/LAW_ATTENTION.md
+!/docs/METHODS_AND_THEORY.md
+!/docs/RELATED_WORK.md
+!/docs/SKMTEA_PLAN.md
+
+# download helpers carry (expired) SAS tokens - excluded; get your own SAS from the dataset portals
+scripts/download_*.py
+scripts/download_*.sh
+scripts/extract_skmtea.sh
+
+__pycache__/
+*.pyc
+*.pth
+*.ckpt
+*.log
+.ipynb_checkpoints/
+
+# large visualization sample dumps (19MB each) - regenerable, kept out of the repo
+outputs/results/b1_samples_sample_ours.npz
+outputs/results/b1_samples_sample_vd.npz

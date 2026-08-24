@@ -1,0 +1,206 @@
+{
+  "width": 0.06,
+  "matched_energy": 1541198720.0,
+  "matched_energy_pct_of_image": 1.4862,
+  "candidate_bands": {
+    "1": 0.09,
+    "2": 0.15,
+    "3": 0.21
+  },
+  "clean_dice": {
+    "1": 0.937,
+    "2": 0.956,
+    "3": 0.953,
+    "4": 0.832,
+    "5": 0.969,
+    "6": 0.167,
+    "7": 0.787,
+    "11": 0.826,
+    "12": 0.587,
+    "13": 0.617,
+    "16": 0.832,
+    "17": 0.739,
+    "18": 0.849
+  },
+  "organs": {
+    "spleen": {
+      "centroid": 0.07,
+      "own_band": 1,
+      "own_radius": 0.09,
+      "drop_own_band": 0.001,
+      "drop_other_bands_mean": 0.0117,
+      "drops_by_other_band": {
+        "2": 0.0038,
+        "3": 0.0196
+      },
+      "own_minus_other": -0.0107,
+      "fragile": false
+    },
+    "kidney_R": {
+      "centroid": 0.079,
+      "own_band": 1,
+      "own_radius": 0.09,
+      "drop_own_band": 0.0017,
+      "drop_other_bands_mean": 0.0078,
+      "drops_by_other_band": {
+        "2": 0.0024,
+        "3": 0.0132
+      },
+      "own_minus_other": -0.0061,
+      "fragile": false
+    },
+    "kidney_L": {
+      "centroid": 0.081,
+      "own_band": 1,
+      "own_radius": 0.09,
+      "drop_own_band": 0.0008,
+      "drop_other_bands_mean": 0.0086,
+      "drops_by_other_band": {
+        "2": 0.0025,
+        "3": 0.0146
+      },
+      "own_minus_other": -0.0077,
+      "fragile": false
+    },
+    "gallbladder": {
+      "centroid": 0.134,
+      "own_band": 2,
+      "own_radius": 0.15,
+      "drop_own_band": 0.007,
+      "drop_other_bands_mean": 0.03,
+      "drops_by_other_band": {
+        "1": 0.0015,
+        "3": 0.0584
+      },
+      "own_minus_other": -0.0229,
+      "fragile": true
+    },
+    "liver": {
+      "centroid": 0.089,
+      "own_band": 1,
+      "own_radius": 0.09,
+      "drop_own_band": 0.0008,
+      "drop_other_bands_mean": 0.0052,
+      "drops_by_other_band": {
+        "2": 0.0016,
+        "3": 0.0087
+      },
+      "own_minus_other": -0.0043,
+      "fragile": false
+    },
+    "esophagus": {
+      "centroid": 0.163,
+      "own_band": 2,
+      "own_radius": 0.15,
+      "drop_own_band": -0.052,
+      "drop_other_bands_mean": 0.043,
+      "drops_by_other_band": {
+        "1": -0.0254,
+        "3": 0.1114
+      },
+      "own_minus_other": -0.095,
+      "fragile": true
+    },
+    "stomach": {
+      "centroid": 0.079,
+      "own_band": 1,
+      "own_radius": 0.09,
+      "drop_own_band": 0.0042,
+      "drop_other_bands_mean": 0.0228,
+      "drops_by_other_band": {
+        "2": 0.0086,
+        "3": 0.037
+      },
+      "own_minus_other": -0.0186,
+      "fragile": false
+    },
+    "pancreas": {
+      "centroid": 0.094,
+      "own_band": 1,
+      "own_radius": 0.09,
+      "drop_own_band": 0.0011,
+      "drop_other_bands_mean": 0.0223,
+      "drops_by_other_band": {
+        "2": 0.007,
+        "3": 0.0377
+      },
+      "own_minus_other": -0.0212,
+      "fragile": true
+    },
+    "adrenal_R": {
+      "centroid": 0.189,
+      "own_band": 3,
+      "own_radius": 0.21,
+      "drop_own_band": 0.0299,
+      "drop_other_bands_mean": 0.0025,
+      "drops_by_other_band": {
+        "1": 0.0011,
+        "2": 0.0039
+      },
+      "own_minus_other": 0.0274,
+      "fragile": true
+    },
+    "adrenal_L": {
+      "centroid": 0.171,
+      "own_band": 2,
+      "own_radius": 0.15,
+      "drop_own_band": 0.0078,
+      "drop_other_bands_mean": 0.0308,
+      "drops_by_other_band": {
+        "1": 0.0024,
+        "3": 0.0593
+      },
+      "own_minus_other": -0.023,
+      "fragile": true
+    },
+    "small_bowel": {
+      "centroid": 0.102,
+      "own_band": 1,
+      "own_radius": 0.09,
+      "drop_own_band": 0.0009,
+      "drop_other_bands_mean": 0.0188,
+      "drops_by_other_band": {
+        "2": 0.0051,
+        "3": 0.0326
+      },
+      "own_minus_other": -0.0179,
+      "fragile": false
+    },
+    "duodenum": {
+      "centroid": 0.136,
+      "own_band": 2,
+      "own_radius": 0.15,
+      "drop_own_band": 0.0087,
+      "drop_other_bands_mean": 0.0255,
+      "drops_by_other_band": {
+        "1": 0.0014,
+        "3": 0.0497
+      },
+      "own_minus_other": -0.0169,
+      "fragile": true
+    },
+    "colon": {
+      "centroid": 0.124,
+      "own_band": 2,
+      "own_radius": 0.15,
+      "drop_own_band": 0.0039,
+      "drop_other_bands_mean": 0.0135,
+      "drops_by_other_band": {
+        "1": 0.0018,
+        "3": 0.0252
+      },
+      "own_minus_other": -0.0096,
+      "fragile": false
+    }
+  },
+  "SUMMARY": {
+    "n_organs": 13,
+    "mean_own_minus_other": -0.0174,
+    "p_wilcoxon": 0.01708984375,
+    "n_own_band_worse": 1,
+    "fragile_mean_own_minus_other": -0.0253,
+    "fragile_p": 0.3125,
+    "max_abs_dice_change": 0.1114,
+    "ablation_is_a_noop": false
+  }
+}

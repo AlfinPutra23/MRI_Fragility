@@ -1,0 +1,32 @@
+{
+  "n_percase": 28,
+  "Reval": 8,
+  "mean": {
+    "mixedR": 0.7496,
+    "task_adapted": 0.7353,
+    "FGTDR": 0.7435,
+    "FGTDR_bnd": 0.7469
+  },
+  "std": {
+    "mixedR": 0.105,
+    "task_adapted": 0.0963,
+    "FGTDR": 0.1015,
+    "FGTDR_bnd": 0.1013
+  },
+  "FGTDRbnd_vs_FGTDR": {
+    "delta": 0.0034,
+    "p": 0.002901986241340637
+  },
+  "FGTDRbnd_vs_task_adapted": {
+    "delta": 0.0116,
+    "p": 0.004406772553920746
+  },
+  "FGTDRbnd_vs_mixedR": {
+    "delta": -0.0027,
+    "p": 0.17823376506567
+  },
+  "FGTDR_vs_task_adapted": {
+    "delta": 0.0082,
+    "p": 0.040213532745838165
+  }
+}

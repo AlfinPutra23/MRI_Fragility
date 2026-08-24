@@ -1,0 +1,15 @@
+{
+  "n": 13,
+  "mean_effect": 0.0013,
+  "ci95": [
+    -0.005,
+    0.0077
+  ],
+  "sd": 0.0105,
+  "mde_80pct_power": 0.0089,
+  "phenomenon_frag_drop": 0.15,
+  "mixedr_gain": 0.088,
+  "tost_margin": 0.044,
+  "tost_p": 0.0,
+  "conclusion": "The null is INFORMATIVE: 95% CI excludes effects >~0.01 Dice; powered to 16.86x below the phenomenon; TOST equivalent."
+}

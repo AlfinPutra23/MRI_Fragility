@@ -1,0 +1,73 @@
+{
+  "n_organs": 13,
+  "ordering_nnunet_vs_resenc_spearman": 0.9835164835164836,
+  "ordering_pearson": 0.9677932543454866,
+  "centroid_law_resenc_pearson": 0.8695561378843902,
+  "per_organ": {
+    "spleen": {
+      "nnunet_drop": 0.047216169064932645,
+      "resenc_drop": 0.04835083077925473,
+      "centroid": 0.0701003508850409
+    },
+    "kidney_R": {
+      "nnunet_drop": 0.03855011860023405,
+      "resenc_drop": 0.033614695171083064,
+      "centroid": 0.0790465676580333
+    },
+    "kidney_L": {
+      "nnunet_drop": 0.03976313908953777,
+      "resenc_drop": 0.03532260567331191,
+      "centroid": 0.08105090564876809
+    },
+    "gallbladder": {
+      "nnunet_drop": 0.16998641960939953,
+      "resenc_drop": 0.20949110818021677,
+      "centroid": 0.134057094146623
+    },
+    "liver": {
+      "nnunet_drop": 0.019352056546594443,
+      "resenc_drop": 0.01971314233221344,
+      "centroid": 0.08929382900139603
+    },
+    "esophagus": {
+      "nnunet_drop": 0.12752944579703696,
+      "resenc_drop": 0.124455989608803,
+      "centroid": 0.16255776629771987
+    },
+    "stomach": {
+      "nnunet_drop": 0.06611482008418468,
+      "resenc_drop": 0.06048141832395226,
+      "centroid": 0.0794041666264471
+    },
+    "pancreas": {
+      "nnunet_drop": 0.07292059195820699,
+      "resenc_drop": 0.07212573070546857,
+      "centroid": 0.0938090781296794
+    },
+    "adrenal_R": {
+      "nnunet_drop": 0.18563623979642568,
+      "resenc_drop": 0.2126073749481232,
+      "centroid": 0.18942241765806203
+    },
+    "adrenal_L": {
+      "nnunet_drop": 0.19771213033786128,
+      "resenc_drop": 0.1707791035481857,
+      "centroid": 0.17076092237959553
+    },
+    "small_bowel": {
+      "nnunet_drop": 0.11306424354266142,
+      "resenc_drop": 0.10286177735956792,
+      "centroid": 0.10189016223088979
+    },
+    "duodenum": {
+      "nnunet_drop": 0.14075621008333516,
+      "resenc_drop": 0.1329757012899625,
+      "centroid": 0.13583364027364406
+    },
+    "colon": {
+      "nnunet_drop": 0.16250736920796927,
+      "resenc_drop": 0.14856707699171434,
+      "centroid": 0.12379053839271092
+    }
+  }
+}

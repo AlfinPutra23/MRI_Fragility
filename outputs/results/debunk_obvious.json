@@ -1,0 +1,8 @@
+{
+  "size_abs_r": 0.659,
+  "blur_abs_r": 0.297,
+  "freq_centroid_abs_r": 0.863,
+  "n_organs": 13,
+  "metric": "Spearman |r| of each predictor vs per-organ Dice drop",
+  "verdict": "frequency (centroid) STRONG >> size (weak, exceptions) > blur (weakest)"
+}

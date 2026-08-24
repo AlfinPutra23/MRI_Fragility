@@ -1,0 +1,57 @@
+{
+  "case": "MTR_001",
+  "kspace_shape": [
+    512,
+    512,
+    160,
+    2,
+    16
+  ],
+  "maps_shape": [
+    512,
+    512,
+    160,
+    16,
+    1
+  ],
+  "slice_z": 64,
+  "voxel_mm": [
+    0.31249889731407166,
+    0.31245487928390503,
+    0.8000200986862183
+  ],
+  "structures": {
+    "patellar cart.": {
+      "voxels": 26828,
+      "volume_mm3": 2095.7
+    },
+    "femoral cart.": {
+      "voxels": 90421,
+      "volume_mm3": 7063.3
+    },
+    "tibial cart. (med)": {
+      "voxels": 22963,
+      "volume_mm3": 1793.8
+    },
+    "tibial cart. (lat)": {
+      "voxels": 19101,
+      "volume_mm3": 1492.1
+    },
+    "meniscus (med)": {
+      "voxels": 33466,
+      "volume_mm3": 2614.2
+    },
+    "meniscus (lat)": {
+      "voxels": 22292,
+      "volume_mm3": 1741.3
+    }
+  },
+  "official_masks": [
+    "poisson_10.0x",
+    "poisson_12.0x",
+    "poisson_16.0x",
+    "poisson_4.0x",
+    "poisson_6.0x",
+    "poisson_8.0x"
+  ]
+}

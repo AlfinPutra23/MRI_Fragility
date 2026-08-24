@@ -1,0 +1,9 @@
+{
+  "n": 7,
+  "generic_loupe": 0.5568,
+  "loupe_tversky": 0.5602,
+  "delta": 0.0034,
+  "delta_std": 0.0184,
+  "wilcoxon_p": 0.9375,
+  "wins": 3
+}

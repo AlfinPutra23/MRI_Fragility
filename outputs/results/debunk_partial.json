@@ -1,0 +1,104 @@
+{
+  "MRISegmentator": {
+    "n": 13,
+    "marginal_spearman": {
+      "centroid": 0.863,
+      "log_volume": -0.659,
+      "sav": 0.852,
+      "contrast": -0.555
+    },
+    "partial_centroid_vs_drop": {
+      "| log_vol": [
+        0.758,
+        0.002654404415880546
+      ],
+      "| log_vol,sav": [
+        0.757,
+        0.0027127411302581405
+      ],
+      "| log_vol,sav,contrast": [
+        0.636,
+        0.01953846925745792
+      ]
+    },
+    "nested_R2": {
+      "size+contrast": 0.663,
+      "size+contrast+centroid": 0.805,
+      "delta_from_centroid": 0.142
+    },
+    "dissociation_top3": [
+      {
+        "organ": "kidney_R",
+        "centroid": 0.079,
+        "vol_cm3": 182.0,
+        "drop": 0.039,
+        "note": "low-centroid but small"
+      },
+      {
+        "organ": "small_bowel",
+        "centroid": 0.102,
+        "vol_cm3": 605.4,
+        "drop": 0.113,
+        "note": "high-centroid but large"
+      },
+      {
+        "organ": "colon",
+        "centroid": 0.124,
+        "vol_cm3": 503.0,
+        "drop": 0.163,
+        "note": "high-centroid but large"
+      }
+    ]
+  },
+  "AMOS": {
+    "n": 11,
+    "marginal_spearman": {
+      "centroid": 0.855,
+      "log_volume": -0.873,
+      "sav": 0.827,
+      "contrast": -0.282
+    },
+    "partial_centroid_vs_drop": {
+      "| log_vol": [
+        0.21,
+        0.5350996673246355
+      ],
+      "| log_vol,sav": [
+        0.572,
+        0.06624873534385207
+      ],
+      "| log_vol,sav,contrast": [
+        0.454,
+        0.16027796688713067
+      ]
+    },
+    "nested_R2": {
+      "size+contrast": 0.764,
+      "size+contrast+centroid": 0.765,
+      "delta_from_centroid": 0.001
+    },
+    "dissociation_top3": [
+      {
+        "organ": "kidney_R",
+        "centroid": 0.076,
+        "vol_cm3": 140.5,
+        "drop": 0.028,
+        "note": "low-centroid but small"
+      },
+      {
+        "organ": "liver",
+        "centroid": 0.08,
+        "vol_cm3": 1234.2,
+        "drop": 0.023,
+        "note": "high-centroid but large"
+      },
+      {
+        "organ": "stomach",
+        "centroid": 0.087,
+        "vol_cm3": 177.0,
+        "drop": 0.082,
+        "note": "high-centroid but large"
+      }
+    ]
+  }
+}

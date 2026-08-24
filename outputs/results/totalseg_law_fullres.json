@@ -1,0 +1,383 @@
+{
+  "n_subjects": 25,
+  "R": [
+    1,
+    8
+  ],
+  "n_structures": 41,
+  "law_all_spearman": 0.532,
+  "law_all_p": 0.00034324188610251443,
+  "law_new_anatomy_spearman": 0.37,
+  "n_new_anatomy": 28,
+  "rows": [
+    {
+      "structure": "humerus_right",
+      "new_anatomy": true,
+      "centroid": 0.1891,
+      "dice_R1": 0.7416,
+      "dice_R8": 0.0056,
+      "drop": 0.736,
+      "n": 3
+    },
+    {
+      "structure": "gluteus_maximus_left",
+      "new_anatomy": true,
+      "centroid": 0.1104,
+      "dice_R1": 0.7925,
+      "dice_R8": 0.3335,
+      "drop": 0.4589,
+      "n": 3
+    },
+    {
+      "structure": "gluteus_minimus_right",
+      "new_anatomy": true,
+      "centroid": 0.1659,
+      "dice_R1": 0.6278,
+      "dice_R8": 0.2161,
+      "drop": 0.4117,
+      "n": 4
+    },
+    {
+      "structure": "gluteus_maximus_right",
+      "new_anatomy": true,
+      "centroid": 0.1139,
+      "dice_R1": 0.6974,
+      "dice_R8": 0.3215,
+      "drop": 0.3759,
+      "n": 3
+    },
+    {
+      "structure": "femur_left",
+      "new_anatomy": true,
+      "centroid": 0.1262,
+      "dice_R1": 0.9094,
+      "dice_R8": 0.5827,
+      "drop": 0.3267,
+      "n": 3
+    },
+    {
+      "structure": "femur_right",
+      "new_anatomy": true,
+      "centroid": 0.121,
+      "dice_R1": 0.9022,
+      "dice_R8": 0.6032,
+      "drop": 0.299,
+      "n": 3
+    },
+    {
+      "structure": "iliac_vena_left",
+      "new_anatomy": true,
+      "centroid": 0.1671,
+      "dice_R1": 0.6979,
+      "dice_R8": 0.4023,
+      "drop": 0.2956,
+      "n": 9
+    },
+    {
+      "structure": "colon",
+      "new_anatomy": false,
+      "centroid": 0.1213,
+      "dice_R1": 0.8946,
+      "dice_R8": 0.6018,
+      "drop": 0.2928,
+      "n": 23
+    },
+    {
+      "structure": "hip_left",
+      "new_anatomy": true,
+      "centroid": 0.1604,
+      "dice_R1": 0.8433,
+      "dice_R8": 0.5576,
+      "drop": 0.2857,
+      "n": 13
+    },
+    {
+      "structure": "adrenal_gland_left",
+      "new_anatomy": false,
+      "centroid": 0.1834,
+      "dice_R1": 0.7961,
+      "dice_R8": 0.5147,
+      "drop": 0.2815,
+      "n": 14
+    },
+    {
+      "structure": "iliac_vena_right",
+      "new_anatomy": true,
+      "centroid": 0.1657,
+      "dice_R1": 0.7372,
+      "dice_R8": 0.4662,
+      "drop": 0.2709,
+      "n": 12
+    },
+    {
+      "structure": "iliac_artery_right",
+      "new_anatomy": true,
+      "centroid": 0.1836,
+      "dice_R1": 0.8014,
+      "dice_R8": 0.552,
+      "drop": 0.2494,
+      "n": 13
+    },
+    {
+      "structure": "adrenal_gland_right",
+      "new_anatomy": false,
+      "centroid": 0.182,
+      "dice_R1": 0.8357,
+      "dice_R8": 0.5881,
+      "drop": 0.2477,
+      "n": 14
+    },
+    {
+      "structure": "hip_right",
+      "new_anatomy": true,
+      "centroid": 0.151,
+      "dice_R1": 0.8388,
+      "dice_R8": 0.5957,
+      "drop": 0.2431,
+      "n": 13
+    },
+    {
+      "structure": "spinal_cord",
+      "new_anatomy": true,
+      "centroid": 0.1622,
+      "dice_R1": 0.9112,
+      "dice_R8": 0.6741,
+      "drop": 0.237,
+      "n": 23
+    },
+    {
+      "structure": "iliac_artery_left",
+      "new_anatomy": true,
+      "centroid": 0.1814,
+      "dice_R1": 0.8315,
+      "dice_R8": 0.6088,
+      "drop": 0.2227,
+      "n": 11
+    },
+    {
+      "structure": "intervertebral_discs",
+      "new_anatomy": true,
+      "centroid": 0.152,
+      "dice_R1": 0.8885,
+      "dice_R8": 0.6884,
+      "drop": 0.2001,
+      "n": 24
+    },
+    {
+      "structure": "sacrum",
+      "new_anatomy": true,
+      "centroid": 0.132,
+      "dice_R1": 0.8373,
+      "dice_R8": 0.6449,
+      "drop": 0.1924,
+      "n": 6
+    },
+    {
+      "structure": "gallbladder",
+      "new_anatomy": false,
+      "centroid": 0.1372,
+      "dice_R1": 0.8957,
+      "dice_R8": 0.7065,
+      "drop": 0.1892,
+      "n": 15
+    },
+    {
+      "structure": "aorta",
+      "new_anatomy": true,
+      "centroid": 0.1273,
+      "dice_R1": 0.8944,
+      "dice_R8": 0.7054,
+      "drop": 0.189,
+      "n": 21
+    },
+    {
+      "structure": "inferior_vena_cava",
+      "new_anatomy": true,
+      "centroid": 0.1502,
+      "dice_R1": 0.8366,
+      "dice_R8": 0.6499,
+      "drop": 0.1867,
+      "n": 23
+    },
+    {
+      "structure": "iliopsoas_left",
+      "new_anatomy": true,
+      "centroid": 0.1248,
+      "dice_R1": 0.91,
+      "dice_R8": 0.7341,
+      "drop": 0.1759,
+      "n": 21
+    },
+    {
+      "structure": "stomach",
+      "new_anatomy": false,
+      "centroid": 0.1062,
+      "dice_R1": 0.8689,
+      "dice_R8": 0.6965,
+      "drop": 0.1724,
+      "n": 22
+    },
+    {
+      "structure": "iliopsoas_right",
+      "new_anatomy": true,
+      "centroid": 0.1282,
+      "dice_R1": 0.9261,
+      "dice_R8": 0.7599,
+      "drop": 0.1662,
+      "n": 21
+    },
+    {
+      "structure": "small_bowel",
+      "new_anatomy": false,
+      "centroid": 0.1207,
+      "dice_R1": 0.8138,
+      "dice_R8": 0.6487,
+      "drop": 0.1651,
+      "n": 22
+    },
+    {
+      "structure": "vertebrae",
+      "new_anatomy": true,
+      "centroid": 0.1172,
+      "dice_R1": 0.9259,
+      "dice_R8": 0.7739,
+      "drop": 0.1521,
+      "n": 24
+    },
+    {
+      "structure": "portal_vein_and_splenic_vein",
+      "new_anatomy": true,
+      "centroid": 0.1736,
+      "dice_R1": 0.7831,
+      "dice_R8": 0.6313,
+      "drop": 0.1518,
+      "n": 19
+    },
+    {
+      "structure": "esophagus",
+      "new_anatomy": false,
+      "centroid": 0.1555,
+      "dice_R1": 0.8383,
+      "dice_R8": 0.6887,
+      "drop": 0.1496,
+      "n": 16
+    },
+    {
+      "structure": "duodenum",
+      "new_anatomy": false,
+      "centroid": 0.143,
+      "dice_R1": 0.7819,
+      "dice_R8": 0.6374,
+      "drop": 0.1445,
+      "n": 19
+    },
+    {
+      "structure": "autochthon_left",
+      "new_anatomy": true,
+      "centroid": 0.0884,
+      "dice_R1": 0.9088,
+      "dice_R8": 0.7671,
+      "drop": 0.1417,
+      "n": 22
+    },
+    {
+      "structure": "gluteus_medius_right",
+      "new_anatomy": true,
+      "centroid": 0.1128,
+      "dice_R1": 0.9119,
+      "dice_R8": 0.7785,
+      "drop": 0.1333,
+      "n": 7
+    },
+    {
+      "structure": "gluteus_medius_left",
+      "new_anatomy": true,
+      "centroid": 0.1329,
+      "dice_R1": 0.7322,
+      "dice_R8": 0.6118,
+      "drop": 0.1204,
+      "n": 9
+    },
+    {
+      "structure": "kidney_right",
+      "new_anatomy": false,
+      "centroid": 0.0896,
+      "dice_R1": 0.9011,
+      "dice_R8": 0.7857,
+      "drop": 0.1154,
+      "n": 17
+    },
+    {
+      "structure": "autochthon_right",
+      "new_anatomy": true,
+      "centroid": 0.0931,
+      "dice_R1": 0.8826,
+      "dice_R8": 0.7697,
+      "drop": 0.113,
+      "n": 22
+    },
+    {
+      "structure": "liver",
+      "new_anatomy": false,
+      "centroid": 0.0598,
+      "dice_R1": 0.9495,
+      "dice_R8": 0.8462,
+      "drop": 0.1033,
+      "n": 22
+    },
+    {
+      "structure": "lung_left",
+      "new_anatomy": true,
+      "centroid": 0.1358,
+      "dice_R1": 0.9399,
+      "dice_R8": 0.8501,
+      "drop": 0.0898,
+      "n": 19
+    },
+    {
+      "structure": "spleen",
+      "new_anatomy": false,
+      "centroid": 0.0791,
+      "dice_R1": 0.9222,
+      "dice_R8": 0.8331,
+      "drop": 0.0891,
+      "n": 20
+    },
+    {
+      "structure": "pancreas",
+      "new_anatomy": false,
+      "centroid": 0.1186,
+      "dice_R1": 0.7344,
+      "dice_R8": 0.6519,
+      "drop": 0.0824,
+      "n": 18
+    },
+    {
+      "structure": "lung_right",
+      "new_anatomy": true,
+      "centroid": 0.133,
+      "dice_R1": 0.9376,
+      "dice_R8": 0.8581,
+      "drop": 0.0795,
+      "n": 19
+    },
+    {
+      "structure": "heart",
+      "new_anatomy": true,
+      "centroid": 0.0552,
+      "dice_R1": 0.8819,
+      "dice_R8": 0.832,
+      "drop": 0.0499,
+      "n": 15
+    },
+    {
+      "structure": "kidney_left",
+      "new_anatomy": false,
+      "centroid": 0.086,
+      "dice_R1": 0.8406,
+      "dice_R8": 0.7934,
+      "drop": 0.0473,
+      "n": 19
+    }
+  ]
+}

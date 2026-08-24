@@ -1,0 +1,271 @@
+{
+  "MRISegmentator": {
+    "dataset": "MRISegmentator",
+    "n": 13,
+    "claim": "centroid",
+    "marginal": {
+      "sav": {
+        "spearman": 0.852,
+        "p_spearman": 0.0002,
+        "pearson": 0.758,
+        "abs_spearman": 0.852
+      },
+      "contrast": {
+        "spearman": -0.555,
+        "p_spearman": 0.049,
+        "pearson": -0.595,
+        "abs_spearman": 0.555
+      },
+      "hf8_img": {
+        "spearman": 0.775,
+        "p_spearman": 0.0019,
+        "pearson": 0.827,
+        "abs_spearman": 0.775
+      },
+      "fdim": {
+        "spearman": 0.736,
+        "p_spearman": 0.0041,
+        "pearson": 0.749,
+        "abs_spearman": 0.736
+      },
+      "clean_dice_R1": {
+        "spearman": -0.929,
+        "p_spearman": 0.0,
+        "pearson": -0.786,
+        "abs_spearman": 0.929
+      },
+      "nsd_R1": {
+        "spearman": -0.731,
+        "p_spearman": 0.0045,
+        "pearson": -0.728,
+        "abs_spearman": 0.731
+      },
+      "centroid": {
+        "spearman": 0.863,
+        "p_spearman": 0.0001,
+        "pearson": 0.884,
+        "abs_spearman": 0.863
+      }
+    },
+    "vs_rival": {
+      "sav": {
+        "spearman": {
+          "claim_given_rival": 0.409,
+          "p_claim": 0.196,
+          "rival_given_claim": 0.326,
+          "p_rival": 0.313
+        },
+        "pearson": {
+          "claim_given_rival": 0.747,
+          "p_claim": 0.0083,
+          "rival_given_claim": -0.376,
+          "p_rival": 0.2122
+        },
+        "verdict": "METHOD-SENSITIVE"
+      },
+      "contrast": {
+        "spearman": {
+          "claim_given_rival": 0.802,
+          "p_claim": 0.0013,
+          "rival_given_claim": -0.192,
+          "p_rival": 0.5513
+        },
+        "pearson": {
+          "claim_given_rival": 0.835,
+          "p_claim": 0.0013,
+          "rival_given_claim": -0.331,
+          "p_rival": 0.303
+        },
+        "verdict": "SURVIVES"
+      },
+      "hf8_img": {
+        "spearman": {
+          "claim_given_rival": 0.643,
+          "p_claim": 0.0185,
+          "rival_given_claim": -0.288,
+          "p_rival": 0.3593
+        },
+        "pearson": {
+          "claim_given_rival": 0.659,
+          "p_claim": 0.0195,
+          "rival_given_claim": -0.43,
+          "p_rival": 0.1715
+        },
+        "verdict": "SURVIVES"
+      },
+      "fdim": {
+        "spearman": {
+          "claim_given_rival": 0.67,
+          "p_claim": 0.0182,
+          "rival_given_claim": 0.118,
+          "p_rival": 0.7095
+        },
+        "pearson": {
+          "claim_given_rival": 0.734,
+          "p_claim": 0.0043,
+          "rival_given_claim": -0.278,
+          "p_rival": 0.3977
+        },
+        "verdict": "SURVIVES"
+      },
+      "clean_dice_R1": {
+        "spearman": {
+          "claim_given_rival": 0.213,
+          "p_claim": 0.516,
+          "rival_given_claim": -0.697,
+          "p_rival": 0.0092
+        },
+        "pearson": {
+          "claim_given_rival": 0.655,
+          "p_claim": 0.0182,
+          "rival_given_claim": -0.055,
+          "p_rival": 0.8618
+        },
+        "verdict": "METHOD-SENSITIVE"
+      },
+      "nsd_R1": {
+        "spearman": {
+          "claim_given_rival": 0.834,
+          "p_claim": 0.0005,
+          "rival_given_claim": -0.667,
+          "p_rival": 0.0173
+        },
+        "pearson": {
+          "claim_given_rival": 0.768,
+          "p_claim": 0.0025,
+          "rival_given_claim": -0.348,
+          "p_rival": 0.2812
+        },
+        "verdict": "SURVIVES (both independent)"
+      }
+    },
+    "marginal_ranking": [
+      "clean_dice_R1",
+      "centroid",
+      "sav",
+      "hf8_img",
+      "fdim",
+      "nsd_R1",
+      "contrast"
+    ],
+    "claim_is_top_marginal": false,
+    "rivals_beating_claim": [
+      "clean_dice_R1"
+    ],
+    "rivals_that_dissolve_the_claim": [],
+    "OVERALL": "AT RISK \u2014 dissolved by []; out-predicted by ['clean_dice_R1']"
+  },
+  "AMOS": {
+    "dataset": "AMOS",
+    "n": 11,
+    "claim": "centroid",
+    "marginal": {
+      "sav": {
+        "spearman": 0.827,
+        "p_spearman": 0.0017,
+        "pearson": 0.763,
+        "abs_spearman": 0.827
+      },
+      "contrast": {
+        "spearman": -0.282,
+        "p_spearman": 0.4011,
+        "pearson": -0.394,
+        "abs_spearman": 0.282
+      },
+      "hf8_img": {
+        "spearman": 0.855,
+        "p_spearman": 0.0008,
+        "pearson": 0.79,
+        "abs_spearman": 0.855
+      },
+      "fdim": {
+        "spearman": 0.791,
+        "p_spearman": 0.0037,
+        "pearson": 0.781,
+        "abs_spearman": 0.791
+      },
+      "centroid": {
+        "spearman": 0.855,
+        "p_spearman": 0.0008,
+        "pearson": 0.833,
+        "abs_spearman": 0.855
+      }
+    },
+    "vs_rival": {
+      "sav": {
+        "spearman": {
+          "claim_given_rival": 0.461,
+          "p_claim": 0.1847,
+          "rival_given_claim": 0.28,
+          "p_rival": 0.4402
+        },
+        "pearson": {
+          "claim_given_rival": 0.582,
+          "p_claim": 0.0858,
+          "rival_given_claim": -0.311,
+          "p_rival": 0.387
+        },
+        "verdict": "MEDIATOR-LIKE (neither unique)"
+      },
+      "contrast": {
+        "spearman": {
+          "claim_given_rival": 0.844,
+          "p_claim": 0.0015,
+          "rival_given_claim": 0.143,
+          "p_rival": 0.6883
+        },
+        "pearson": {
+          "claim_given_rival": 0.804,
+          "p_claim": 0.0045,
+          "rival_given_claim": -0.15,
+          "p_rival": 0.6907
+        },
+        "verdict": "SURVIVES"
+      },
+      "hf8_img": {
+        "spearman": {
+          "claim_given_rival": 0.101,
+          "p_claim": 0.47,
+          "rival_given_claim": 0.101,
+          "p_rival": 0.4615
+        },
+        "pearson": {
+          "claim_given_rival": 0.735,
+          "p_claim": 0.0103,
+          "rival_given_claim": -0.659,
+          "p_rival": 0.0362
+        },
+        "verdict": "METHOD-SENSITIVE"
+      },
+      "fdim": {
+        "spearman": {
+          "claim_given_rival": 0.604,
+          "p_claim": 0.063,
+          "rival_given_claim": 0.344,
+          "p_rival": 0.321
+        },
+        "pearson": {
+          "claim_given_rival": 0.473,
+          "p_claim": 0.1715,
+          "rival_given_claim": 0.092,
+          "p_rival": 0.7995
+        },
+        "verdict": "MEDIATOR-LIKE (neither unique)"
+      }
+    },
+    "marginal_ranking": [
+      "hf8_img",
+      "centroid",
+      "sav",
+      "fdim",
+      "contrast"
+    ],
+    "claim_is_top_marginal": false,
+    "rivals_beating_claim": [],
+    "rivals_that_dissolve_the_claim": [
+      "sav",
+      "fdim"
+    ],
+    "OVERALL": "AT RISK \u2014 dissolved by ['sav', 'fdim']; out-predicted by []"
+  }
+}

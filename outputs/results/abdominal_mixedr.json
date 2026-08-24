@@ -1,0 +1,11 @@
+{
+  "note": "Abdominal nnU-Net mixed-R mitigation, Dataset501 test @R8, tail organs. SECOND anatomy for the mitigation (knee = +0.134). Predictions: predsSW_Uniform_s42 (trained @R2) vs predsMIXEDR_Uniform_s42 (trained on mixed-R Dataset504). Recomputed 2026-07-24 from existing nnU-Net predictions.",
+  "tail": {
+    "n": 240,
+    "uniform_trained_R2": 0.6501,
+    "uniform_trained_mixedR": 0.7380,
+    "delta": 0.0880,
+    "wilcoxon_p": 4.07e-41,
+    "improved_cases": 239
+  }
+}

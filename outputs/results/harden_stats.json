@@ -1,0 +1,139 @@
+{
+  "MRISegmentator": {
+    "n": 13,
+    "lmg_R2": {
+      "centroid": 0.261,
+      "sav": 0.14,
+      "contrast": 0.106,
+      "hf8_img": 0.188,
+      "fdim": 0.134
+    },
+    "lmg_share_pct": {
+      "centroid": 31.5,
+      "sav": 16.9,
+      "contrast": 12.8,
+      "hf8_img": 22.7,
+      "fdim": 16.2
+    },
+    "total_R2": 0.829,
+    "vif": {
+      "centroid": 59.13,
+      "sav": 38.0,
+      "contrast": 2.92,
+      "hf8_img": 60.92,
+      "fdim": 27.83
+    },
+    "matched_pairs": {
+      "sav_tol": 0.03,
+      "pairs": [
+        [
+          "colon",
+          "kidney_R",
+          0.124
+        ],
+        [
+          "colon",
+          "kidney_L",
+          0.123
+        ],
+        [
+          "gallbladder",
+          "pancreas",
+          0.097
+        ],
+        [
+          "gallbladder",
+          "small_bowel",
+          0.057
+        ]
+      ]
+    },
+    "honest_n": {
+      "spearman": 0.863,
+      "boot_CI95": [
+        0.553,
+        0.966
+      ],
+      "loo_spearman_range": [
+        0.825,
+        0.895
+      ],
+      "loo_weakest_when_dropping": [
+        "pancreas",
+        0.825
+      ],
+      "perm_p": 0.0004
+    }
+  },
+  "AMOS": {
+    "n": 11,
+    "lmg_R2": {
+      "centroid": 0.244,
+      "sav": 0.162,
+      "contrast": 0.081,
+      "hf8_img": 0.198,
+      "fdim": 0.211
+    },
+    "lmg_share_pct": {
+      "centroid": 27.2,
+      "sav": 18.1,
+      "contrast": 9.0,
+      "hf8_img": 22.1,
+      "fdim": 23.6
+    },
+    "total_R2": 0.896,
+    "vif": {
+      "centroid": 232.66,
+      "sav": 74.99,
+      "contrast": 7.65,
+      "hf8_img": 236.75,
+      "fdim": 52.86
+    },
+    "matched_pairs": {
+      "sav_tol": 0.08,
+      "pairs": [
+        [
+          "gallbladder",
+          "spleen",
+          0.224
+        ],
+        [
+          "gallbladder",
+          "kidney_R",
+          0.241
+        ],
+        [
+          "gallbladder",
+          "kidney_L",
+          0.235
+        ],
+        [
+          "gallbladder",
+          "stomach",
+          0.187
+        ],
+        [
+          "duodenum",
+          "pancreas",
+          0.038
+        ]
+      ]
+    },
+    "honest_n": {
+      "spearman": 0.855,
+      "boot_CI95": [
+        0.488,
+        0.991
+      ],
+      "loo_spearman_range": [
+        0.806,
+        0.879
+      ],
+      "loo_weakest_when_dropping": [
+        "stomach",
+        0.806
+      ],
+      "perm_p": 0.0021
+    }
+  }
+}

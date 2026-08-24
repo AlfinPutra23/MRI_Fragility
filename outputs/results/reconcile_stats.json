@@ -1,0 +1,90 @@
+{
+  "LODO_check": {
+    "fit_MRISeg_predict_AMOS": {
+      "spearman_pred_vs_actual": 0.8545,
+      "within_target_centroid_spearman": 0.8545,
+      "IS_RANK_ARTIFACT": true,
+      "calibrated_R2_source_fit": 0.671,
+      "rmse": 0.0534
+    },
+    "fit_AMOS_predict_MRISeg": {
+      "spearman_pred_vs_actual": 0.8626,
+      "within_target_centroid_spearman": 0.8626,
+      "IS_RANK_ARTIFACT": true,
+      "calibrated_R2_source_fit": 0.738,
+      "rmse": 0.0305
+    }
+  },
+  "partial_over_size": {
+    "MRISeg": {
+      "ctrl_SAV": {
+        "spearman": 0.409,
+        "perm_p_spearman": 0.194,
+        "pearson": 0.747,
+        "perm_p_pearson": 0.008
+      },
+      "ctrl_SAV_contrast_fdim": {
+        "spearman": -0.076,
+        "perm_p_spearman": 0.85,
+        "pearson": 0.608,
+        "perm_p_pearson": 0.059
+      },
+      "reverse_SAV_given_centroid_spearman": 0.326
+    },
+    "AMOS": {
+      "ctrl_SAV": {
+        "spearman": 0.461,
+        "perm_p_spearman": 0.1856,
+        "pearson": 0.582,
+        "perm_p_pearson": 0.0844
+      },
+      "ctrl_SAV_contrast_fdim": {
+        "spearman": 0.241,
+        "perm_p_spearman": 0.5694,
+        "pearson": 0.102,
+        "perm_p_pearson": 0.8058
+      },
+      "reverse_SAV_given_centroid_spearman": 0.28
+    }
+  },
+  "semipartial_unique_R2": {
+    "MRISeg": {
+      "centroid_unique": 0.045,
+      "full5_R2": 0.829
+    },
+    "AMOS": {
+      "centroid_unique": 0.023,
+      "full5_R2": 0.896
+    }
+  },
+  "freqPC1_dominance": {
+    "MRISeg": {
+      "pc1_var_expl": 0.961,
+      "shares_pct": {
+        "freqPC1": 45.8,
+        "sav": 33.6,
+        "contrast": 20.6
+      },
+      "total_R2": 0.807
+    },
+    "AMOS": {
+      "pc1_var_expl": 0.962,
+      "shares_pct": {
+        "freqPC1": 50.2,
+        "sav": 40.4,
+        "contrast": 9.5
+      },
+      "total_R2": 0.772
+    }
+  },
+  "collinearity": {
+    "MRISeg": {
+      "r_centroid_hf8": 0.951,
+      "r_centroid_sav": 0.907
+    },
+    "AMOS": {
+      "r_centroid_hf8": 1.0,
+      "r_centroid_sav": 0.891
+    }
+  }
+}

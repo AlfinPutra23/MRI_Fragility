@@ -1,0 +1,42 @@
+{
+  "structure_avg": {
+    "mixedr": {
+      "R2": 0.8041,
+      "R4": 0.7939,
+      "R6": 0.786,
+      "R8": 0.7743
+    },
+    "focal": {
+      "R2": 0.8029,
+      "R4": 0.7919,
+      "R6": 0.7851,
+      "R8": 0.7765
+    }
+  },
+  "per_structure_R8": {
+    "patellar": {
+      "mixedr": 0.829,
+      "focal": 0.825
+    },
+    "femoral": {
+      "mixedr": 0.816,
+      "focal": 0.814
+    },
+    "tibial-med": {
+      "mixedr": 0.755,
+      "focal": 0.762
+    },
+    "tibial-lat": {
+      "mixedr": 0.75,
+      "focal": 0.776
+    },
+    "menisc-med": {
+      "mixedr": 0.747,
+      "focal": 0.744
+    },
+    "menisc-lat": {
+      "mixedr": 0.748,
+      "focal": 0.739
+    }
+  }
+}

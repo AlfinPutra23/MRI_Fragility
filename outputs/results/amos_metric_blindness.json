@@ -1,0 +1,95 @@
+{
+  "rows": [
+    {
+      "id": 6,
+      "organ": "liver",
+      "tail": false,
+      "n": 80,
+      "rho_pooled": 0.6261837787154243,
+      "rho_withinR": 0.30375939849624056
+    },
+    {
+      "id": 7,
+      "organ": "stomach",
+      "tail": false,
+      "n": 80,
+      "rho_pooled": 0.2629395218002813,
+      "rho_withinR": 0.07368421052631578
+    },
+    {
+      "id": 2,
+      "organ": "kidney_R",
+      "tail": false,
+      "n": 80,
+      "rho_pooled": 0.31950304735114865,
+      "rho_withinR": 0.022180451127819557
+    },
+    {
+      "id": 3,
+      "organ": "kidney_L",
+      "tail": false,
+      "n": 80,
+      "rho_pooled": 0.4978199718706048,
+      "rho_withinR": 0.019548872180451125
+    },
+    {
+      "id": 1,
+      "organ": "spleen",
+      "tail": false,
+      "n": 80,
+      "rho_pooled": 0.4656821378340366,
+      "rho_withinR": -0.0744360902255639
+    },
+    {
+      "id": 5,
+      "organ": "esophagus",
+      "tail": true,
+      "n": 80,
+      "rho_pooled": 0.46230661040787624,
+      "rho_withinR": 0.31879699248120297
+    },
+    {
+      "id": 11,
+      "organ": "adrenal_R",
+      "tail": true,
+      "n": 80,
+      "rho_pooled": 0.6183544303797469,
+      "rho_withinR": 0.24285714285714283
+    },
+    {
+      "id": 13,
+      "organ": "duodenum",
+      "tail": true,
+      "n": 80,
+      "rho_pooled": 0.3550867323019222,
+      "rho_withinR": 0.1902255639097744
+    },
+    {
+      "id": 4,
+      "organ": "gallbladder",
+      "tail": true,
+      "n": 76,
+      "rho_pooled": 0.3179926041947436,
+      "rho_withinR": 0.06359649122807018
+    },
+    {
+      "id": 10,
+      "organ": "pancreas",
+      "tail": true,
+      "n": 80,
+      "rho_pooled": 0.2201359587435537,
+      "rho_withinR": -0.02894736842105263
+    },
+    {
+      "id": 12,
+      "organ": "adrenal_L",
+      "tail": true,
+      "n": 80,
+      "rho_pooled": 0.24283269656687234,
+      "rho_withinR": -0.21298908593726068
+    }
+  ],
+  "tail_withinR": 0.09558995601964619,
+  "large_withinR": 0.06894736842105263,
+  "holds": false
+}

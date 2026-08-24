@@ -1,0 +1,77 @@
+{
+  "Reval": 6,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "tail_mean": {
+    "uniform": 0.5487,
+    "drop": 0.5549,
+    "centroid": 0.547
+  },
+  "large_mean": {
+    "uniform": 0.8498,
+    "drop": 0.8466,
+    "centroid": 0.8432
+  },
+  "MAKE_OR_BREAK_centroid_vs_drop": {
+    "delta_tail": -0.0079,
+    "p": 0.06653594970703125
+  },
+  "centroid_vs_uniform": {
+    "delta_tail": -0.0017,
+    "p": 0.7660293579101562
+  },
+  "drop_vs_uniform": {
+    "delta_tail": 0.0062,
+    "p": 0.15404510498046875
+  },
+  "per_organ": {
+    "uniform": {
+      "spleen": 0.9083,
+      "kidney_R": 0.9434,
+      "kidney_L": 0.9361,
+      "gallbladder": 0.7045,
+      "liver": 0.9594,
+      "esophagus": 0.1231,
+      "stomach": 0.6837,
+      "pancreas": 0.7826,
+      "adrenal_R": 0.496,
+      "adrenal_L": 0.5194,
+      "small_bowel": 0.7603,
+      "duodenum": 0.6668,
+      "colon": 0.7574
+    },
+    "drop": {
+      "spleen": 0.905,
+      "kidney_R": 0.9394,
+      "kidney_L": 0.9316,
+      "gallbladder": 0.7117,
+      "liver": 0.9552,
+      "esophagus": 0.1076,
+      "stomach": 0.6774,
+      "pancreas": 0.7836,
+      "adrenal_R": 0.5195,
+      "adrenal_L": 0.5394,
+      "small_bowel": 0.7573,
+      "duodenum": 0.6678,
+      "colon": 0.7606
+    },
+    "centroid": {
+      "spleen": 0.9004,
+      "kidney_R": 0.9367,
+      "kidney_L": 0.931,
+      "gallbladder": 0.7014,
+      "liver": 0.9535,
+      "esophagus": 0.1263,
+      "stomach": 0.6705,
+      "pancreas": 0.779,
+      "adrenal_R": 0.4789,
+      "adrenal_L": 0.5394,
+      "small_bowel": 0.7516,
+      "duodenum": 0.6573,
+      "colon": 0.7586
+    }
+  }
+}

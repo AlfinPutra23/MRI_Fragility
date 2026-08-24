@@ -1,0 +1,17 @@
+{
+  "n_percase": 42,
+  "R8_structavg_mean": {
+    "A_clean_zf": 0.4697,
+    "B_recon_then_seg": 0.6018,
+    "C_mixedR": 0.7354
+  },
+  "R8_std": {
+    "A": 0.0922,
+    "B": 0.0903,
+    "C": 0.1032
+  },
+  "delta_C_minus_A": 0.2658,
+  "delta_C_minus_B": 0.1336,
+  "wilcoxon_C_vs_A": 4.547473508864641e-13,
+  "wilcoxon_C_vs_B": 2.2737367544323206e-12
+}

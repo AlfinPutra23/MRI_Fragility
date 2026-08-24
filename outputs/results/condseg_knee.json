@@ -1,0 +1,92 @@
+{
+  "per_R_mean_dice": {
+    "clean": {
+      "R2": {
+        "patellar": 0.8383,
+        "femoral": 0.8341,
+        "tibial-med": 0.7416,
+        "tibial-lat": 0.7557,
+        "menisc-med": 0.77,
+        "menisc-lat": 0.7706
+      },
+      "R4": {
+        "patellar": 0.8096,
+        "femoral": 0.8024,
+        "tibial-med": 0.6356,
+        "tibial-lat": 0.5943,
+        "menisc-med": 0.5577,
+        "menisc-lat": 0.5616
+      },
+      "R6": {
+        "patellar": 0.7875,
+        "femoral": 0.7729,
+        "tibial-med": 0.5838,
+        "tibial-lat": 0.4358,
+        "menisc-med": 0.3424,
+        "menisc-lat": 0.3295
+      },
+      "R8": {
+        "patellar": 0.7614,
+        "femoral": 0.7307,
+        "tibial-med": 0.5501,
+        "tibial-lat": 0.3188,
+        "menisc-med": 0.1764,
+        "menisc-lat": 0.2001
+      }
+    },
+    "mixedr": {
+      "R2": {
+        "patellar": 0.8378,
+        "femoral": 0.827,
+        "tibial-med": 0.7426,
+        "tibial-lat": 0.7344,
+        "menisc-med": 0.7616,
+        "menisc-lat": 0.7626
+      },
+      "R4": {
+        "patellar": 0.8295,
+        "femoral": 0.8239,
+        "tibial-med": 0.7361,
+        "tibial-lat": 0.721,
+        "menisc-med": 0.7458,
+        "menisc-lat": 0.7468
+      },
+      "R6": {
+        "patellar": 0.8247,
+        "femoral": 0.8213,
+        "tibial-med": 0.7292,
+        "tibial-lat": 0.708,
+        "menisc-med": 0.7289,
+        "menisc-lat": 0.7309
+      },
+      "R8": {
+        "patellar": 0.8188,
+        "femoral": 0.8146,
+        "tibial-med": 0.7226,
+        "tibial-lat": 0.6892,
+        "menisc-med": 0.7094,
+        "menisc-lat": 0.7127
+      }
+    }
+  },
+  "structure_avg": {
+    "clean": {
+      "R2": 0.785,
+      "R4": 0.6602,
+      "R6": 0.542,
+      "R8": 0.4563
+    },
+    "mixedr": {
+      "R2": 0.7777,
+      "R4": 0.7672,
+      "R6": 0.7572,
+      "R8": 0.7446
+    }
+  },
+  "delta_mixedr_minus_clean": {
+    "R2": -0.0073,
+    "R4": 0.107,
+    "R6": 0.2152,
+    "R8": 0.2883
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "seed_floor_std": 0.07857670163374782,
+  "seed_floor_mean": -0.005244391120736171,
+  "tail_dice": {
+    "M0uniform(no-seed)": 0.6527773622309743,
+    "Uniform_s42": 0.647160353704146,
+    "FragW4_s42": 0.6701446009117511,
+    "FragW2_s42": 0.6552861325505809,
+    "FragTopK_s42": 0.654329891144436
+  },
+  "variants": {
+    "FragW4_s42": {
+      "mean_delta": 0.022041741779123783,
+      "std": 0.08504046407365719,
+      "improved": 570,
+      "worsened": 300,
+      "beats_seed": false
+    },
+    "FragW2_s42": {
+      "mean_delta": 0.007493389958916019,
+      "std": 0.07905364522683152,
+      "improved": 461,
+      "worsened": 342,
+      "beats_seed": false
+    },
+    "FragTopK_s42": {
+      "mean_delta": 0.006522716372207881,
+      "std": 0.09332272163233896,
+      "improved": 488,
+      "worsened": 473,
+      "beats_seed": false
+    }
+  }
+}

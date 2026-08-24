@@ -1,0 +1,150 @@
+{
+  "per_R": {
+    "2": {
+      "ssim": {
+        "n": 240,
+        "mean": 0.966,
+        "std": 0.0078,
+        "min": 0.9459,
+        "max": 0.9822,
+        "IQR": 0.0109,
+        "CV_pct": 0.81
+      },
+      "dice_fragile": {
+        "n": 187,
+        "mean": 0.8945,
+        "std": 0.1213,
+        "min": 0.1237,
+        "max": 0.9777,
+        "IQR": 0.0729,
+        "CV_pct": 13.56
+      },
+      "dice_robust": {
+        "n": 228,
+        "mean": 0.9681,
+        "std": 0.0218,
+        "min": 0.7929,
+        "max": 0.9936,
+        "IQR": 0.0191,
+        "CV_pct": 2.26
+      },
+      "rho_within_fragile": 0.008,
+      "pearson_within_fragile": 0.038,
+      "rho_within_robust": 0.007,
+      "pearson_within_robust": 0.141
+    },
+    "4": {
+      "ssim": {
+        "n": 240,
+        "mean": 0.8502,
+        "std": 0.0248,
+        "min": 0.791,
+        "max": 0.9094,
+        "IQR": 0.0348,
+        "CV_pct": 2.92
+      },
+      "dice_fragile": {
+        "n": 187,
+        "mean": 0.8478,
+        "std": 0.1483,
+        "min": 0.0676,
+        "max": 0.9642,
+        "IQR": 0.0885,
+        "CV_pct": 17.49
+      },
+      "dice_robust": {
+        "n": 228,
+        "mean": 0.9591,
+        "std": 0.0309,
+        "min": 0.637,
+        "max": 0.9901,
+        "IQR": 0.0224,
+        "CV_pct": 3.23
+      },
+      "rho_within_fragile": -0.028,
+      "pearson_within_fragile": -0.104,
+      "rho_within_robust": -0.031,
+      "pearson_within_robust": 0.105
+    },
+    "6": {
+      "ssim": {
+        "n": 240,
+        "mean": 0.7737,
+        "std": 0.0335,
+        "min": 0.6889,
+        "max": 0.8579,
+        "IQR": 0.0472,
+        "CV_pct": 4.33
+      },
+      "dice_fragile": {
+        "n": 187,
+        "mean": 0.787,
+        "std": 0.175,
+        "min": 0.0182,
+        "max": 0.9424,
+        "IQR": 0.1287,
+        "CV_pct": 22.23
+      },
+      "dice_robust": {
+        "n": 228,
+        "mean": 0.943,
+        "std": 0.0619,
+        "min": 0.192,
+        "max": 0.9854,
+        "IQR": 0.0318,
+        "CV_pct": 6.57
+      },
+      "rho_within_fragile": -0.022,
+      "pearson_within_fragile": -0.114,
+      "rho_within_robust": -0.001,
+      "pearson_within_robust": 0.072
+    },
+    "8": {
+      "ssim": {
+        "n": 240,
+        "mean": 0.7353,
+        "std": 0.0372,
+        "min": 0.6452,
+        "max": 0.8329,
+        "IQR": 0.053,
+        "CV_pct": 5.06
+      },
+      "dice_fragile": {
+        "n": 187,
+        "mean": 0.7248,
+        "std": 0.2067,
+        "min": 0.0,
+        "max": 0.9284,
+        "IQR": 0.1692,
+        "CV_pct": 28.51
+      },
+      "dice_robust": {
+        "n": 228,
+        "mean": 0.9213,
+        "std": 0.0823,
+        "min": 0.1074,
+        "max": 0.9789,
+        "IQR": 0.0472,
+        "CV_pct": 8.94
+      },
+      "rho_within_fragile": -0.093,
+      "pearson_within_fragile": -0.144,
+      "rho_within_robust": 0.023,
+      "pearson_within_robust": 0.053
+    }
+  },
+  "ssim_sd_pooled": 0.0925,
+  "disattenuated_within_r": {
+    "R2_fragile": 0.411,
+    "R2_robust": 0.861,
+    "R4_fragile": -0.363,
+    "R4_robust": 0.366,
+    "R6_fragile": -0.302,
+    "R6_robust": 0.196,
+    "R8_fragile": -0.34,
+    "R8_robust": 0.131
+  },
+  "mean_ssim_CV_pct": 3.28,
+  "mean_within_rho_fragile": -0.034,
+  "VERDICT": "PARTIAL \u2014 SSIM varies (CV=3.3%) but disattenuated |r|~0.37 is non-trivial; range restriction explains part of the null. Report the decomposition with this caveat."
+}

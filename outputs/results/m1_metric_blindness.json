@@ -1,0 +1,111 @@
+{
+  "rows": [
+    {
+      "id": 2,
+      "organ": "kidney_R",
+      "tail": false,
+      "n": 960,
+      "rho_pooled": 0.7047926891196712,
+      "rho_withinR": 0.22514192954738793
+    },
+    {
+      "id": 3,
+      "organ": "kidney_L",
+      "tail": false,
+      "n": 868,
+      "rho_pooled": 0.5936425050080648,
+      "rho_withinR": 0.09271463098408941
+    },
+    {
+      "id": 16,
+      "organ": "small_bowel",
+      "tail": false,
+      "n": 960,
+      "rho_pooled": 0.6486670178678579,
+      "rho_withinR": 0.03452468792860987
+    },
+    {
+      "id": 18,
+      "organ": "colon",
+      "tail": false,
+      "n": 960,
+      "rho_pooled": 0.7061213716594744,
+      "rho_withinR": 0.028836004097293352
+    },
+    {
+      "id": 1,
+      "organ": "spleen",
+      "tail": false,
+      "n": 912,
+      "rho_pooled": 0.4661842185943443,
+      "rho_withinR": -0.0006391259490703934
+    },
+    {
+      "id": 5,
+      "organ": "liver",
+      "tail": false,
+      "n": 960,
+      "rho_pooled": 0.726168716003381,
+      "rho_withinR": -0.012629776558620805
+    },
+    {
+      "id": 7,
+      "organ": "stomach",
+      "tail": false,
+      "n": 960,
+      "rho_pooled": 0.47874700656142194,
+      "rho_withinR": -0.053596850639768046
+    },
+    {
+      "id": 17,
+      "organ": "duodenum",
+      "tail": true,
+      "n": 960,
+      "rho_pooled": 0.5145807042976391,
+      "rho_withinR": 0.1050894980815639
+    },
+    {
+      "id": 11,
+      "organ": "pancreas",
+      "tail": true,
+      "n": 960,
+      "rho_pooled": 0.4689153715444569,
+      "rho_withinR": 0.08797982603864649
+    },
+    {
+      "id": 12,
+      "organ": "adrenal_R",
+      "tail": true,
+      "n": 908,
+      "rho_pooled": 0.40884971429857797,
+      "rho_withinR": 0.07876042148818471
+    },
+    {
+      "id": 13,
+      "organ": "adrenal_L",
+      "tail": true,
+      "n": 904,
+      "rho_pooled": 0.37216135286210206,
+      "rho_withinR": -0.021643912953640473
+    },
+    {
+      "id": 4,
+      "organ": "gallbladder",
+      "tail": true,
+      "n": 748,
+      "rho_pooled": 0.48919587225045835,
+      "rho_withinR": -0.033600937768747556
+    },
+    {
+      "id": 6,
+      "organ": "esophagus",
+      "tail": true,
+      "n": 960,
+      "rho_pooled": 0.39640328384553397,
+      "rho_withinR": -0.0546146634490182
+    }
+  ],
+  "tail_withinR": 0.02699503857283148,
+  "large_withinR": 0.04490735705856019,
+  "holds": false
+}

@@ -1,0 +1,232 @@
+{
+  "E_pct": 1.5,
+  "targets": {
+    "0.0701": 0.0068,
+    "0.0893": 0.0089,
+    "0.1238": 0.0141,
+    "0.1626": 0.0218,
+    "0.1894": 0.0263
+  },
+  "clean_dice": {
+    "1": 0.918,
+    "2": 0.95,
+    "3": 0.94,
+    "4": 0.827,
+    "5": 0.961,
+    "6": 0.066,
+    "7": 0.748,
+    "11": 0.819,
+    "12": 0.531,
+    "13": 0.588,
+    "16": 0.814,
+    "17": 0.722,
+    "18": 0.838
+  },
+  "organs": {
+    "spleen": {
+      "centroid": 0.07,
+      "own_target": 0.0701,
+      "drop_own": 0.0115,
+      "drop_others_mean": 0.0216,
+      "own_minus_other": -0.0101,
+      "by_target": {
+        "0.0701": 0.0115,
+        "0.0893": 0.0188,
+        "0.1238": 0.024,
+        "0.1626": 0.0222,
+        "0.1894": 0.0215
+      },
+      "fragile": false
+    },
+    "kidney_R": {
+      "centroid": 0.079,
+      "own_target": 0.0701,
+      "drop_own": 0.0103,
+      "drop_others_mean": 0.0167,
+      "own_minus_other": -0.0064,
+      "by_target": {
+        "0.0701": 0.0103,
+        "0.0893": 0.0148,
+        "0.1238": 0.0175,
+        "0.1626": 0.0177,
+        "0.1894": 0.0167
+      },
+      "fragile": false
+    },
+    "kidney_L": {
+      "centroid": 0.081,
+      "own_target": 0.0893,
+      "drop_own": 0.0128,
+      "drop_others_mean": 0.0149,
+      "own_minus_other": -0.0021,
+      "by_target": {
+        "0.0701": 0.0095,
+        "0.0893": 0.0128,
+        "0.1238": 0.0148,
+        "0.1626": 0.0169,
+        "0.1894": 0.0185
+      },
+      "fragile": false
+    },
+    "gallbladder": {
+      "centroid": 0.134,
+      "own_target": 0.1238,
+      "drop_own": 0.0534,
+      "drop_others_mean": 0.0553,
+      "own_minus_other": -0.0018,
+      "by_target": {
+        "0.0701": 0.0367,
+        "0.0893": 0.038,
+        "0.1238": 0.0534,
+        "0.1626": 0.0679,
+        "0.1894": 0.0786
+      },
+      "fragile": true
+    },
+    "liver": {
+      "centroid": 0.089,
+      "own_target": 0.0893,
+      "drop_own": 0.0079,
+      "drop_others_mean": 0.0089,
+      "own_minus_other": -0.001,
+      "by_target": {
+        "0.0701": 0.0068,
+        "0.0893": 0.0079,
+        "0.1238": 0.0086,
+        "0.1626": 0.0099,
+        "0.1894": 0.0102
+      },
+      "fragile": false
+    },
+    "esophagus": {
+      "centroid": 0.163,
+      "own_target": 0.1626,
+      "drop_own": 0.0086,
+      "drop_others_mean": -0.0019,
+      "own_minus_other": 0.0104,
+      "by_target": {
+        "0.0701": -0.0364,
+        "0.0893": -0.0111,
+        "0.1238": 0.0171,
+        "0.1626": 0.0086,
+        "0.1894": 0.0229
+      },
+      "fragile": true
+    },
+    "stomach": {
+      "centroid": 0.079,
+      "own_target": 0.0701,
+      "drop_own": 0.0295,
+      "drop_others_mean": 0.0375,
+      "own_minus_other": -0.008,
+      "by_target": {
+        "0.0701": 0.0295,
+        "0.0893": 0.0381,
+        "0.1238": 0.0395,
+        "0.1626": 0.0371,
+        "0.1894": 0.0353
+      },
+      "fragile": false
+    },
+    "pancreas": {
+      "centroid": 0.094,
+      "own_target": 0.0893,
+      "drop_own": 0.0191,
+      "drop_others_mean": 0.0287,
+      "own_minus_other": -0.0096,
+      "by_target": {
+        "0.0701": 0.0168,
+        "0.0893": 0.0191,
+        "0.1238": 0.0251,
+        "0.1626": 0.0339,
+        "0.1894": 0.0391
+      },
+      "fragile": true
+    },
+    "adrenal_R": {
+      "centroid": 0.189,
+      "own_target": 0.1894,
+      "drop_own": 0.0426,
+      "drop_others_mean": 0.0254,
+      "own_minus_other": 0.0171,
+      "by_target": {
+        "0.0701": 0.0202,
+        "0.0893": 0.0141,
+        "0.1238": 0.0269,
+        "0.1626": 0.0405,
+        "0.1894": 0.0426
+      },
+      "fragile": true
+    },
+    "adrenal_L": {
+      "centroid": 0.171,
+      "own_target": 0.1626,
+      "drop_own": 0.06,
+      "drop_others_mean": 0.0349,
+      "own_minus_other": 0.0252,
+      "by_target": {
+        "0.0701": 0.0177,
+        "0.0893": 0.0303,
+        "0.1238": 0.0296,
+        "0.1626": 0.06,
+        "0.1894": 0.0618
+      },
+      "fragile": true
+    },
+    "small_bowel": {
+      "centroid": 0.102,
+      "own_target": 0.0893,
+      "drop_own": 0.034,
+      "drop_others_mean": 0.0316,
+      "own_minus_other": 0.0024,
+      "by_target": {
+        "0.0701": 0.0242,
+        "0.0893": 0.034,
+        "0.1238": 0.0352,
+        "0.1626": 0.0341,
+        "0.1894": 0.033
+      },
+      "fragile": false
+    },
+    "duodenum": {
+      "centroid": 0.136,
+      "own_target": 0.1238,
+      "drop_own": 0.0415,
+      "drop_others_mean": 0.0405,
+      "own_minus_other": 0.0009,
+      "by_target": {
+        "0.0701": 0.0208,
+        "0.0893": 0.029,
+        "0.1238": 0.0415,
+        "0.1626": 0.0526,
+        "0.1894": 0.0597
+      },
+      "fragile": true
+    },
+    "colon": {
+      "centroid": 0.124,
+      "own_target": 0.1238,
+      "drop_own": 0.0257,
+      "drop_others_mean": 0.0253,
+      "own_minus_other": 0.0004,
+      "by_target": {
+        "0.0701": 0.0229,
+        "0.0893": 0.0273,
+        "0.1238": 0.0257,
+        "0.1626": 0.0263,
+        "0.1894": 0.0248
+      },
+      "fragile": false
+    }
+  },
+  "SUMMARY": {
+    "n_organs": 13,
+    "mean_own_minus_other": 0.0013,
+    "p_wilcoxon": 1.0,
+    "n_own_worse": 6,
+    "fragile_mean": 0.007,
+    "fragile_p": 0.3125,
+    "max_abs_dice_change": 0.0786,
+    "ablation_is_a_noop": false
+  }
+}

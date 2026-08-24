@@ -1,0 +1,251 @@
+{
+  "generic": {
+    "0": {
+      "tail": 0.5458,
+      "large": 0.8421,
+      "per_organ": {
+        "spleen": 0.8916,
+        "kidney_R": 0.9396,
+        "kidney_L": 0.9318,
+        "gallbladder": 0.7239,
+        "liver": 0.9555,
+        "esophagus": 0.1017,
+        "stomach": 0.6851,
+        "pancreas": 0.7791,
+        "adrenal_R": 0.4764,
+        "adrenal_L": 0.5301,
+        "small_bowel": 0.7472,
+        "duodenum": 0.6634,
+        "colon": 0.7438
+      }
+    },
+    "1": {
+      "tail": 0.5256,
+      "large": 0.8459,
+      "per_organ": {
+        "spleen": 0.9095,
+        "kidney_R": 0.9435,
+        "kidney_L": 0.9332,
+        "gallbladder": 0.7056,
+        "liver": 0.9565,
+        "esophagus": 0.0459,
+        "stomach": 0.677,
+        "pancreas": 0.7826,
+        "adrenal_R": 0.4733,
+        "adrenal_L": 0.4974,
+        "small_bowel": 0.7495,
+        "duodenum": 0.6488,
+        "colon": 0.7519
+      }
+    },
+    "2": {
+      "tail": 0.5369,
+      "large": 0.8458,
+      "per_organ": {
+        "spleen": 0.9032,
+        "kidney_R": 0.9375,
+        "kidney_L": 0.9304,
+        "gallbladder": 0.7172,
+        "liver": 0.9551,
+        "esophagus": 0.1474,
+        "stomach": 0.6812,
+        "pancreas": 0.7756,
+        "adrenal_R": 0.456,
+        "adrenal_L": 0.4828,
+        "small_bowel": 0.7613,
+        "duodenum": 0.6425,
+        "colon": 0.7519
+      }
+    },
+    "3": {
+      "tail": 0.5577,
+      "large": 0.8501,
+      "per_organ": {
+        "spleen": 0.9102,
+        "kidney_R": 0.9434,
+        "kidney_L": 0.934,
+        "gallbladder": 0.7269,
+        "liver": 0.9603,
+        "esophagus": 0.146,
+        "stomach": 0.6905,
+        "pancreas": 0.7827,
+        "adrenal_R": 0.4964,
+        "adrenal_L": 0.5337,
+        "small_bowel": 0.7602,
+        "duodenum": 0.6607,
+        "colon": 0.7517
+      }
+    },
+    "4": {
+      "tail": 0.553,
+      "large": 0.8452,
+      "per_organ": {
+        "spleen": 0.902,
+        "kidney_R": 0.9396,
+        "kidney_L": 0.933,
+        "gallbladder": 0.7109,
+        "liver": 0.9544,
+        "esophagus": 0.134,
+        "stomach": 0.6883,
+        "pancreas": 0.784,
+        "adrenal_R": 0.4789,
+        "adrenal_L": 0.5497,
+        "small_bowel": 0.7506,
+        "duodenum": 0.6603,
+        "colon": 0.7484
+      }
+    },
+    "5": {
+      "tail": 0.5533,
+      "large": 0.8493,
+      "per_organ": {
+        "spleen": 0.9128,
+        "kidney_R": 0.942,
+        "kidney_L": 0.9352,
+        "gallbladder": 0.7121,
+        "liver": 0.9561,
+        "esophagus": 0.1056,
+        "stomach": 0.6803,
+        "pancreas": 0.7895,
+        "adrenal_R": 0.5027,
+        "adrenal_L": 0.5545,
+        "small_bowel": 0.7621,
+        "duodenum": 0.6556,
+        "colon": 0.7563
+      }
+    },
+    "6": {
+      "tail": 0.5424,
+      "large": 0.8474,
+      "per_organ": {
+        "spleen": 0.9049,
+        "kidney_R": 0.9413,
+        "kidney_L": 0.9336,
+        "gallbladder": 0.7108,
+        "liver": 0.9553,
+        "esophagus": 0.0728,
+        "stomach": 0.6957,
+        "pancreas": 0.7875,
+        "adrenal_R": 0.491,
+        "adrenal_L": 0.528,
+        "small_bowel": 0.7562,
+        "duodenum": 0.6643,
+        "colon": 0.7449
+      }
+    }
+  },
+  "conditional": {
+    "0": {
+      "tail": 0.5561,
+      "large": null,
+      "per_organ": {
+        "gallbladder": 0.6933,
+        "esophagus": 0.3165,
+        "pancreas": 0.7633,
+        "adrenal_R": 0.4494,
+        "adrenal_L": 0.4613,
+        "duodenum": 0.6529
+      }
+    },
+    "1": {
+      "tail": 0.5557,
+      "large": null,
+      "per_organ": {
+        "gallbladder": 0.7161,
+        "esophagus": 0.2311,
+        "pancreas": 0.7744,
+        "adrenal_R": 0.4449,
+        "adrenal_L": 0.5208,
+        "duodenum": 0.6472
+      }
+    },
+    "2": {
+      "tail": 0.5363,
+      "large": null,
+      "per_organ": {
+        "gallbladder": 0.7251,
+        "esophagus": 0.0829,
+        "pancreas": 0.7888,
+        "adrenal_R": 0.4547,
+        "adrenal_L": 0.5179,
+        "duodenum": 0.6486
+      }
+    },
+    "3": {
+      "tail": 0.4825,
+      "large": null,
+      "per_organ": {
+        "gallbladder": 0.7003,
+        "esophagus": 0.1073,
+        "pancreas": 0.7651,
+        "adrenal_R": 0.3864,
+        "adrenal_L": 0.304,
+        "duodenum": 0.6321
+      }
+    },
+    "4": {
+      "tail": 0.542,
+      "large": null,
+      "per_organ": {
+        "gallbladder": 0.6995,
+        "esophagus": 0.1445,
+        "pancreas": 0.7833,
+        "adrenal_R": 0.4644,
+        "adrenal_L": 0.5138,
+        "duodenum": 0.6468
+      }
+    },
+    "5": {
+      "tail": 0.4817,
+      "large": null,
+      "per_organ": {
+        "gallbladder": 0.6847,
+        "esophagus": 0.1438,
+        "pancreas": 0.7511,
+        "adrenal_R": 0.3875,
+        "adrenal_L": 0.2996,
+        "duodenum": 0.6234
+      }
+    },
+    "6": {
+      "tail": 0.5431,
+      "large": null,
+      "per_organ": {
+        "gallbladder": 0.7054,
+        "esophagus": 0.1959,
+        "pancreas": 0.7755,
+        "adrenal_R": 0.418,
+        "adrenal_L": 0.5258,
+        "duodenum": 0.6383
+      }
+    }
+  },
+  "mask_divergence": {
+    "0": 0.0219,
+    "1": 0.0193,
+    "2": 0.0229,
+    "3": 0.0219,
+    "4": 0.0219,
+    "5": 0.0234,
+    "6": 0.0198
+  },
+  "seeds_used": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "SUMMARY": {
+    "n_seeds": 7,
+    "generic_tail_mean": 0.545,
+    "conditional_tail_mean": 0.5282,
+    "delta": -0.0168,
+    "delta_std": 0.0407,
+    "wilcoxon_p": 0.578125,
+    "conditional_wins_seeds": 3,
+    "mean_mask_divergence": 0.0216
+  }
+}

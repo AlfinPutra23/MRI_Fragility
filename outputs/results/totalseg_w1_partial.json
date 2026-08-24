@@ -1,0 +1,67 @@
+{
+  "description": "W1 whole-body dissociation: does spectral centroid predict Dice-drop OVER baseline difficulty (clean dice_R1)? Serialized from the TotalSeg-MRI R1-vs-R8 rows so the paper's W1 numbers are auditable. NOTE preprocessing-sensitive: strong on full-res, attenuates on fast recon.",
+  "fullres": {
+    "n_structures": 41,
+    "all": {
+      "n": 41,
+      "marginal_centroid_drop_spearman": 0.532,
+      "difficulty_drop_spearman": -0.408,
+      "partial_centroid_drop_given_difficulty": 0.389,
+      "perm_p": 0.0067
+    },
+    "gradual_only": {
+      "n": 30,
+      "marginal_centroid_drop_spearman": 0.704,
+      "difficulty_drop_spearman": -0.248,
+      "partial_centroid_drop_given_difficulty": 0.66,
+      "perm_p": 0.0001,
+      "gradual_max_drop": 0.25
+    },
+    "new_anatomy_only": {
+      "n": 28,
+      "marginal_centroid_drop_spearman": 0.37,
+      "difficulty_drop_spearman": -0.535,
+      "partial_centroid_drop_given_difficulty": 0.178,
+      "perm_p": 0.1863
+    },
+    "matched_pairs": {
+      "tol": 0.05,
+      "concordant": 215,
+      "total": 296,
+      "frac": 0.726,
+      "sign_test_p": 1.7909879826153113e-15
+    }
+  },
+  "fast": {
+    "n_structures": 41,
+    "all": {
+      "n": 41,
+      "marginal_centroid_drop_spearman": 0.433,
+      "difficulty_drop_spearman": -0.44,
+      "partial_centroid_drop_given_difficulty": 0.141,
+      "perm_p": 0.1903
+    },
+    "gradual_only": {
+      "n": 30,
+      "marginal_centroid_drop_spearman": 0.564,
+      "difficulty_drop_spearman": -0.483,
+      "partial_centroid_drop_given_difficulty": 0.329,
+      "perm_p": 0.0415,
+      "gradual_max_drop": 0.25
+    },
+    "new_anatomy_only": {
+      "n": 28,
+      "marginal_centroid_drop_spearman": 0.29,
+      "difficulty_drop_spearman": -0.515,
+      "partial_centroid_drop_given_difficulty": -0.159,
+      "perm_p": 0.7892
+    },
+    "matched_pairs": {
+      "tol": 0.05,
+      "concordant": 129,
+      "total": 251,
+      "frac": 0.514,
+      "sign_test_p": 0.3524894108898515
+    }
+  }
+}

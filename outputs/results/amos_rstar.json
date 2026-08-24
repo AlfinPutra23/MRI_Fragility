@@ -1,0 +1,72 @@
+{
+  "tol": 0.05,
+  "law_r": -0.9118745261905016,
+  "rows": [
+    {
+      "organ": "adrenal_R",
+      "tail": true,
+      "rstar": 3.373021951371328,
+      "centroid": 0.21500235827716496
+    },
+    {
+      "organ": "gallbladder",
+      "tail": true,
+      "rstar": 3.779784156152014,
+      "centroid": 0.12365230331603927
+    },
+    {
+      "organ": "adrenal_L",
+      "tail": true,
+      "rstar": 4.048721622074169,
+      "centroid": 0.1880089735399017
+    },
+    {
+      "organ": "esophagus",
+      "tail": true,
+      "rstar": 5.3062629649566215,
+      "centroid": 0.16850158279722766
+    },
+    {
+      "organ": "duodenum",
+      "tail": true,
+      "rstar": 5.3745279642894594,
+      "centroid": 0.134579274074132
+    },
+    {
+      "organ": "stomach",
+      "tail": false,
+      "rstar": 6.007855882336885,
+      "centroid": 0.08744792589804926
+    },
+    {
+      "organ": "pancreas",
+      "tail": true,
+      "rstar": 6.106724467996527,
+      "centroid": 0.0950789592282547
+    },
+    {
+      "organ": "spleen",
+      "tail": false,
+      "rstar": 8.0,
+      "centroid": 0.06558084289956732
+    },
+    {
+      "organ": "kidney_R",
+      "tail": false,
+      "rstar": 8.0,
+      "centroid": 0.07636677861814596
+    },
+    {
+      "organ": "kidney_L",
+      "tail": false,
+      "rstar": 8.0,
+      "centroid": 0.07640143928904927
+    },
+    {
+      "organ": "liver",
+      "tail": false,
+      "rstar": 8.0,
+      "centroid": 0.07971376561588875
+    }
+  ]
+}

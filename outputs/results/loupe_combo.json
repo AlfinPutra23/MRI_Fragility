@@ -1,0 +1,8 @@
+{
+  "generic_loupe": 0.5631,
+  "loupe_tversky": 0.5764,
+  "delta": 0.0133,
+  "wilcoxon_p": 0.5,
+  "wins": 2,
+  "n": 3
+}

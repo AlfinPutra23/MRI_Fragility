@@ -1,0 +1,129 @@
+{
+  "rows": [
+    {
+      "id": 5,
+      "organ": "liver",
+      "tail": false,
+      "n_vox": 216347.875,
+      "ce_mass": 8557.955169677734,
+      "dc_mass": 0.01655439182650298,
+      "total_mass": 8557.97172406956
+    },
+    {
+      "id": 18,
+      "organ": "colon",
+      "tail": false,
+      "n_vox": 82689.875,
+      "ce_mass": 12914.245422363281,
+      "dc_mass": 0.06923193018883467,
+      "total_mass": 12914.31465429347
+    },
+    {
+      "id": 7,
+      "organ": "stomach",
+      "tail": false,
+      "n_vox": 49479.125,
+      "ce_mass": 7576.925964355469,
+      "dc_mass": 0.06836742535233498,
+      "total_mass": 7576.994331780821
+    },
+    {
+      "id": 16,
+      "organ": "small_bowel",
+      "tail": false,
+      "n_vox": 46897.375,
+      "ce_mass": 7154.979705810547,
+      "dc_mass": 0.09505773708224297,
+      "total_mass": 7155.074763547629
+    },
+    {
+      "id": 2,
+      "organ": "kidney_R",
+      "tail": false,
+      "n_vox": 35614.0,
+      "ce_mass": 3246.9931396484376,
+      "dc_mass": 0.03209928646683693,
+      "total_mass": 3247.0252389349043
+    },
+    {
+      "id": 3,
+      "organ": "kidney_L",
+      "tail": false,
+      "n_vox": 29936.875,
+      "ce_mass": 2533.5952820777893,
+      "dc_mass": 0.0432909382507205,
+      "total_mass": 2533.63857301604
+    },
+    {
+      "id": 11,
+      "organ": "pancreas",
+      "tail": true,
+      "n_vox": 16233.25,
+      "ce_mass": 3582.785873413086,
+      "dc_mass": 0.10490131005644798,
+      "total_mass": 3582.8907747231424
+    },
+    {
+      "id": 1,
+      "organ": "spleen",
+      "tail": false,
+      "n_vox": 14677.333333333334,
+      "ce_mass": 887.1962281068166,
+      "dc_mass": 0.028124190866947174,
+      "total_mass": 887.2243522976836
+    },
+    {
+      "id": 17,
+      "organ": "duodenum",
+      "tail": true,
+      "n_vox": 11538.5,
+      "ce_mass": 6034.332061767578,
+      "dc_mass": 0.14073356054723263,
+      "total_mass": 6034.472795328125
+    },
+    {
+      "id": 4,
+      "organ": "gallbladder",
+      "tail": true,
+      "n_vox": 3295.75,
+      "ce_mass": 1254.9837646484375,
+      "dc_mass": 0.08221007930114865,
+      "total_mass": 1255.0659747277386
+    },
+    {
+      "id": 6,
+      "organ": "esophagus",
+      "tail": true,
+      "n_vox": 1229.75,
+      "ce_mass": 1367.7346820831299,
+      "dc_mass": 0.062252278439700603,
+      "total_mass": 1367.7969343615696
+    },
+    {
+      "id": 12,
+      "organ": "adrenal_R",
+      "tail": true,
+      "n_vox": 1073.8,
+      "ce_mass": 756.2233734130859,
+      "dc_mass": 0.10946643948554993,
+      "total_mass": 756.3328398525715
+    },
+    {
+      "id": 13,
+      "organ": "adrenal_L",
+      "tail": true,
+      "n_vox": 1015.125,
+      "ce_mass": 460.8739929199219,
+      "dc_mass": 0.10684780636802316,
+      "total_mass": 460.9808407262899
+    }
+  ],
+  "summary": {
+    "vol_ratio": 207.13800160369567,
+    "ce_ratio": 14.062893251444613,
+    "dc_ratio": 0.15305872954580105,
+    "total_ratio": 14.060421501219052,
+    "verdict": "MECHANISM REAL: seg-loss gradient still liver-dominated -> rebalancing has room (M2)."
+  },
+  "n_cases": 8
+}

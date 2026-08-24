@@ -1,0 +1,88 @@
+{
+  "n_organs": 13,
+  "organs": [
+    "spleen",
+    "kidney_R",
+    "kidney_L",
+    "gallbladder",
+    "liver",
+    "esophagus",
+    "stomach",
+    "pancreas",
+    "adrenal_R",
+    "adrenal_L",
+    "small_bowel",
+    "duodenum",
+    "colon"
+  ],
+  "ordering_nnunet_vs_resunet_spearman": 0.4725274725274725,
+  "ordering_pearson": 0.34646985818176734,
+  "centroid_law_resunet_pearson": -0.009200396526148406,
+  "per_organ": {
+    "spleen": {
+      "nnunet_drop": 0.047216169064932645,
+      "resunet_drop": 0.7289372891919826,
+      "resunet_clean_dice": 0.9135212503228851
+    },
+    "kidney_R": {
+      "nnunet_drop": 0.03855011860023405,
+      "resunet_drop": 0.31523201067289974,
+      "resunet_clean_dice": 0.9450863815674027
+    },
+    "kidney_L": {
+      "nnunet_drop": 0.03976313908953777,
+      "resunet_drop": 0.2983814052473517,
+      "resunet_clean_dice": 0.9313786392965622
+    },
+    "gallbladder": {
+      "nnunet_drop": 0.16998641960939953,
+      "resunet_drop": 0.5796375704001994,
+      "resunet_clean_dice": 0.8032537528690399
+    },
+    "liver": {
+      "nnunet_drop": 0.019352056546594443,
+      "resunet_drop": 0.14070612660645798,
+      "resunet_clean_dice": 0.9672881436002345
+    },
+    "esophagus": {
+      "nnunet_drop": 0.12752944579703696,
+      "resunet_drop": 0.16902476892424645,
+      "resunet_clean_dice": 0.8161657437179946
+    },
+    "stomach": {
+      "nnunet_drop": 0.06611482008418468,
+      "resunet_drop": 0.40113710143194947,
+      "resunet_clean_dice": 0.7932956572228983
+    },
+    "pancreas": {
+      "nnunet_drop": 0.07292059195820699,
+      "resunet_drop": 0.3577608566523705,
+      "resunet_clean_dice": 0.7596378551679455
+    },
+    "adrenal_R": {
+      "nnunet_drop": 0.18563623979642568,
+      "resunet_drop": 0.4970686789115235,
+      "resunet_clean_dice": 0.5173351993249501
+    },
+    "adrenal_L": {
+      "nnunet_drop": 0.19771213033786128,
+      "resunet_drop": 0.3241450951125419,
+      "resunet_clean_dice": 0.32888206047414803
+    },
+    "small_bowel": {
+      "nnunet_drop": 0.11306424354266142,
+      "resunet_drop": 0.46909463843443033,
+      "resunet_clean_dice": 0.7900376100673119
+    },
+    "duodenum": {
+      "nnunet_drop": 0.14075621008333516,
+      "resunet_drop": 0.5366629145147319,
+      "resunet_clean_dice": 0.6775152285105885
+    },
+    "colon": {
+      "nnunet_drop": 0.16250736920796927,
+      "resunet_drop": 0.7409320067492868,
+      "resunet_clean_dice": 0.7938136735909181
+    }
+  }
+}

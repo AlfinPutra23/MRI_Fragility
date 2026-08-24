@@ -1,0 +1,158 @@
+{
+  "width": 0.06,
+  "clean_dice": {
+    "1": 0.91,
+    "2": 0.953,
+    "3": 0.946,
+    "4": 0.776,
+    "5": 0.964,
+    "6": 0.16,
+    "7": 0.767,
+    "11": 0.808,
+    "12": 0.493,
+    "13": 0.622,
+    "16": 0.818,
+    "17": 0.731,
+    "18": 0.84
+  },
+  "organs": {
+    "spleen": {
+      "centroid": 0.07,
+      "centroid_radius": 0.09,
+      "control_radius": 0.93,
+      "removed_energy_matched": 29364024.0,
+      "drop_centroid_band": 0.0,
+      "drop_control_band": -0.0,
+      "centroid_minus_control": 0.0,
+      "fragile": false
+    },
+    "kidney_R": {
+      "centroid": 0.079,
+      "centroid_radius": 0.09,
+      "control_radius": 0.93,
+      "removed_energy_matched": 29364024.0,
+      "drop_centroid_band": 0.0,
+      "drop_control_band": 0.0,
+      "centroid_minus_control": -0.0,
+      "fragile": false
+    },
+    "kidney_L": {
+      "centroid": 0.081,
+      "centroid_radius": 0.09,
+      "control_radius": 0.93,
+      "removed_energy_matched": 29364024.0,
+      "drop_centroid_band": -0.0,
+      "drop_control_band": 0.0,
+      "centroid_minus_control": -0.0,
+      "fragile": false
+    },
+    "gallbladder": {
+      "centroid": 0.134,
+      "centroid_radius": 0.15,
+      "control_radius": 0.93,
+      "removed_energy_matched": 29364024.0,
+      "drop_centroid_band": 0.0,
+      "drop_control_band": -0.001,
+      "centroid_minus_control": 0.001,
+      "fragile": true
+    },
+    "liver": {
+      "centroid": 0.089,
+      "centroid_radius": 0.09,
+      "control_radius": 0.93,
+      "removed_energy_matched": 29364024.0,
+      "drop_centroid_band": 0.0,
+      "drop_control_band": 0.0,
+      "centroid_minus_control": -0.0,
+      "fragile": false
+    },
+    "esophagus": {
+      "centroid": 0.163,
+      "centroid_radius": 0.15,
+      "control_radius": 0.93,
+      "removed_energy_matched": 29364024.0,
+      "drop_centroid_band": 0.0,
+      "drop_control_band": 0.0,
+      "centroid_minus_control": -0.0,
+      "fragile": true
+    },
+    "stomach": {
+      "centroid": 0.079,
+      "centroid_radius": 0.09,
+      "control_radius": 0.93,
+      "removed_energy_matched": 29364024.0,
+      "drop_centroid_band": 0.0,
+      "drop_control_band": 0.001,
+      "centroid_minus_control": -0.001,
+      "fragile": false
+    },
+    "pancreas": {
+      "centroid": 0.094,
+      "centroid_radius": 0.09,
+      "control_radius": 0.93,
+      "removed_energy_matched": 29364024.0,
+      "drop_centroid_band": -0.0,
+      "drop_control_band": 0.0,
+      "centroid_minus_control": -0.0,
+      "fragile": true
+    },
+    "adrenal_R": {
+      "centroid": 0.189,
+      "centroid_radius": 0.21,
+      "control_radius": 0.93,
+      "removed_energy_matched": 29364024.0,
+      "drop_centroid_band": -0.0,
+      "drop_control_band": -0.0,
+      "centroid_minus_control": 0.0,
+      "fragile": true
+    },
+    "adrenal_L": {
+      "centroid": 0.171,
+      "centroid_radius": 0.15,
+      "control_radius": 0.93,
+      "removed_energy_matched": 29364024.0,
+      "drop_centroid_band": 0.0,
+      "drop_control_band": 0.001,
+      "centroid_minus_control": -0.001,
+      "fragile": true
+    },
+    "small_bowel": {
+      "centroid": 0.102,
+      "centroid_radius": 0.09,
+      "control_radius": 0.93,
+      "removed_energy_matched": 29364024.0,
+      "drop_centroid_band": -0.0,
+      "drop_control_band": 0.0,
+      "centroid_minus_control": -0.0,
+      "fragile": false
+    },
+    "duodenum": {
+      "centroid": 0.136,
+      "centroid_radius": 0.15,
+      "control_radius": 0.93,
+      "removed_energy_matched": 29364024.0,
+      "drop_centroid_band": 0.0,
+      "drop_control_band": 0.001,
+      "centroid_minus_control": -0.001,
+      "fragile": true
+    },
+    "colon": {
+      "centroid": 0.124,
+      "centroid_radius": 0.15,
+      "control_radius": 0.93,
+      "removed_energy_matched": 29364024.0,
+      "drop_centroid_band": -0.0,
+      "drop_control_band": 0.001,
+      "centroid_minus_control": -0.001,
+      "fragile": false
+    }
+  },
+  "SUMMARY": {
+    "n_organs": 13,
+    "mean_centroid_minus_control": -0.0003,
+    "p_wilcoxon": 0.080322265625,
+    "n_centroid_worse": 3,
+    "fragile_mean_centroid_minus_control": -0.0002,
+    "fragile_p": 0.5625
+  }
+}
