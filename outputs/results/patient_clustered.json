@@ -1,0 +1,13 @@
+{
+  "metric_blindness_R8_patientlevel": {
+    "n_patients": 60,
+    "psnr_vs_tailDice_spearman": -0.177,
+    "psnr_p": 0.1771,
+    "ssim_vs_tailDice_spearman": -0.067,
+    "ssim_p": 0.6085,
+    "series_level_for_reference": {
+      "psnr": -0.205,
+      "ssim": -0.093
+    }
+  }
+}

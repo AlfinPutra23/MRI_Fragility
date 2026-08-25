@@ -58,6 +58,23 @@ def main():
     boot = np.array(boot)
     ci = [round(float(np.percentile(boot, 2.5)), 3), round(float(np.percentile(boot, 97.5)), 3)]
 
+    # (1b) PATIENT-clustered bootstrap: the 240 series are 60 patients x 4 phases, so series are
+    # NOT independent. Resample PATIENTS (all four of a patient's phases move together).
+    import re as _re
+    pats = {}
+    for i, c in enumerate(percase):
+        m = _re.match(r'test_(\d+)_', c["case"])
+        pats.setdefault(m.group(1) if m else str(i), []).append(i)
+    pkeys = list(pats)
+    bootp = []
+    for _ in range(args.boot if not args.smoke else 200):
+        idx = [i for k in np.random.choice(pkeys, len(pkeys), replace=True) for i in pats[k]]
+        r = law_rho([percase[i] for i in idx])
+        if r == r: bootp.append(r)
+    bootp = np.array(bootp)
+    cip = [round(float(np.percentile(bootp, 2.5)), 3), round(float(np.percentile(bootp, 97.5)), 3)]
+    print(f"  patient-clustered ({len(pkeys)} patients): 95% CI = {cip}")
+
     # (2) PSNR/SSIM within-R (R8) blindness: case metric vs case tail Dice
     P = np.array([c["psnr"] for c in percase]); S = np.array([c["ssim"] for c in percase]); T = np.array([c["tail_dice"] for c in percase])
     out = {"n_cases": n,
@@ -65,8 +82,12 @@ def main():
            "metric_blindness_R8": {"psnr_std_across_cases": round(float(P.std()), 3), "ssim_std": round(float(S.std()), 3),
                                    "psnr_vs_tailDice_spearman": round(float(spearmanr(P, T).correlation), 3),
                                    "ssim_vs_tailDice_spearman": round(float(spearmanr(S, T).correlation), 3)},
-           "percase_R8": {"psnr": [round(float(x), 3) for x in P], "ssim": [round(float(x), 4) for x in S],
-                          "tail_dice": [round(float(x), 4) for x in T]}}
+           "law_patientclustered": {"n_patients": len(pkeys), "obs_spearman": round(float(obs), 3),
+                                    "boot95_CI": cip, "boot_mean": round(float(bootp.mean()), 3)},
+           "percase_R8": {"case": [c["case"] for c in percase],
+                          "psnr": [round(float(x), 3) for x in P], "ssim": [round(float(x), 4) for x in S],
+                          "tail_dice": [round(float(x), 4) for x in T]},
+           "percase_drop": [{"case": c["case"], "drop": {str(k): round(float(v), 4) for k, v in c["drop"].items()}} for c in percase]}
     json.dump(out, open("outputs/results/cpu_audit_extras.json", "w"), indent=2)
     print("\n=== (1) case-clustered law CI ===")
     print(f"  centroid->drop Spearman = {obs:.3f}, case-clustered 95% CI = {ci}")

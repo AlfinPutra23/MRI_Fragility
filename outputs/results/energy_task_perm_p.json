@@ -1,0 +1,31 @@
+{
+  "R2": {
+    "rho_reported": 0.6,
+    "rho_exact": 0.6,
+    "n": 6,
+    "exact_perm_p_one_sided": 0.1208,
+    "exact_perm_p_two_sided": 0.2417
+  },
+  "R4": {
+    "rho_reported": 0.829,
+    "rho_exact": 0.8286,
+    "n": 6,
+    "exact_perm_p_one_sided": 0.0292,
+    "exact_perm_p_two_sided": 0.0583
+  },
+  "R6": {
+    "rho_reported": 0.943,
+    "rho_exact": 0.9429,
+    "n": 6,
+    "exact_perm_p_one_sided": 0.0083,
+    "exact_perm_p_two_sided": 0.0167
+  },
+  "R8": {
+    "rho_reported": 0.943,
+    "rho_exact": 0.9429,
+    "n": 6,
+    "exact_perm_p_one_sided": 0.0083,
+    "exact_perm_p_two_sided": 0.0167
+  },
+  "_note": "Exact permutation test over all 720 rank orderings of n=6 knee structures; the minimum attainable one-sided p is 1/720=0.0014."
+}
